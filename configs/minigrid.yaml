@@ -1,0 +1,61 @@
+# MiniGrid / BabyAI. Requires the BabyAI-Text fork of Minigrid -- the fork
+# BALROG uses -- plus gymnasium:
+#   git clone https://github.com/BartekCupial/Minigrid && pip install -e ./Minigrid
+# Merges on top of base.yaml.
+#
+# Dataset + eval order follow the M3 era by default:
+#   train  data/agenteval/babyai_train.json  (100 items, file order)
+#   eval   data/agenteval/babyai_test.json   (90 items, file order)
+# Items are AgentGym data_idx values over the 40-level table
+# (level = AGENTGYM_LEVELS[idx % 40], seed = idx // 40), i.e. exactly the
+# AgentEval order the M3 batches used; one skill store runs through
+# train -> eval and the eval phase keeps accumulating.
+#
+# The official-style ID/OOD profile stays available:
+#   python scripts/run_protocol.py --config configs/minigrid.yaml \
+#       --split-profile official
+# which uses data/minigrid/splits/{train,id,ood}.json (200/150/150,
+# BabyAI-MixedTrainLocal -> new-seed ID + MixedTestLocal OOD, same task-kind
+# mix per split, disjoint seed blocks, deduped maps).
+#
+# Determinism: the mixed env chooses its task kind in __init__; the adapter
+# pre-seeds that construction RNG with the episode seed, so (env, seed) is one
+# reproducible episode. Observation text is the fork's egocentric description
+# (BALROG's BabyAITextCleanLangWrapper); actions are the six BALROG text
+# actions; score is 1.0 once the mission is completed.
+#
+# Step limit: the AgentEval protocol caps MiniGrid at 20 rounds (AgentGym
+# paper), which is the default here. The official mixed split needs the
+# environment's own max_steps instead (64 for goto/pickup, 128 for
+# open/putnext/seq); `run_protocol --split-profile official` sets 150 for
+# that profile. A direct run over an official manifest must pass
+# `--set env.step_limit=150` explicitly.
+#
+#   python scripts/run_protocol.py --config configs/minigrid.yaml
+#   python scripts/analyze_protocol.py records/<exp_id>-eval
+
+env:
+  name: minigrid
+  step_limit: 20           # AgentEval max rounds; max ENV interactions per
+                           # episode (agent loops count env.step calls only)
+  params:
+    items_file: data/agenteval/babyai_test.json  # direct run = AgentEval test;
+                           # run_protocol overrides it per phase (train/test)
+
+skills:
+  # Freeze the eval copies of the post-train skill library. null = auto
+  # (true for the isolated ID/OOD eval phases); false keeps learning during
+  # eval, true freezes train too.
+  freeze: null
+
+run:
+  success_threshold: 0.99  # score is 0/1 (1.0 = mission completed)
+
+system1:
+  backend: stub             # switch to `jev` once the decision server serves :8100
+
+system2:
+  backend: stub             # switch to `llm` once vLLM serves :8000
+
+trigger:
+  confidence_threshold: 0.5

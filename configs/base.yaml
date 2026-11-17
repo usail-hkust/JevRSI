@@ -1,0 +1,217 @@
+# Shared defaults. Env-specific files merge on top of this.
+
+run:
+  mode: dual                # dual | jev | llm_agent
+  episodes: null            # null = all selected task/variation pairs
+  candidate_limit: 255      # max options passed to Jev's choice question
+  success_threshold: 0.0    # score/reward above this counts as success for crediting
+
+# Experiment recording: every run gets a unique id and its own directory
+# records/<exp_id>/ (meta.json, steps.jsonl, messages.jsonl, skills.jsonl,
+# summary.json). Repeated runs of the same config can share a wandb group.
+record:
+  dir: records
+  # Prepended to the auto tracker group, which is derived from the effective
+  # config (<prefix>-<env>-<mode>-<S1 model>[+<S2 model>]).
+  group_prefix: null
+  exp_id: null               # null = auto-generate (timestamp-uniq-mode-env)
+  # Token/cost accounting (records + wandb mirror). USD per 1M tokens by
+  # model; scalar = same rate for input and output, {input, output} splits
+  # them. Unlisted models price 0.
+  cost:
+    usd_per_m:
+      jev-latest: {input: 0.042, output: 0.0}       # TypeSafe 官方价: 输入 $0.042/M, 输出免费
+      deepseek-v4-flash: {input: 0.28, output: 0.42}  # ≈¥2/M in / ¥3/M out (公开 API 价折算)
+  wandb:
+    enabled: false
+    project: JevRSI-1025
+    group: null              # null = auto: <env>-<mode>-<models>; repeated runs aggregate
+    mode: online             # online | offline | disabled
+    # run_id / prefix are set automatically by scripts/run_protocol.py:
+    # ONE run per experiment (resume by run_id after a crash), per-episode
+    # metrics namespaced all/... and one top-level final/* point at close.
+  # SwanLab mirror (China-accessible; use after wandb.ai access ends 2026-10-30).
+  # Same semantics as the wandb section; enabled takes precedence over wandb.
+  swanlab:
+    enabled: false
+    project: JevRSI-1025
+    group: null              # null = auto: <env>-<mode>-<models>
+    mode: online             # online (swanlab.cn) | local (offline, `swanlab watch` to view) | disabled
+
+env:
+  name: mock
+  step_limit: 100
+  params: {}
+
+system1:
+  backend: stub             # jev | stub
+  jev:
+    base_url: http://localhost:8100
+    endpoint: /v1/systemone
+    # Local S1: StartLux-Decision (a /v1/systemone decision model), served by
+    # scripts/serve_startlux.sh (startlux-decide + vLLM, prompt-bidirectional plugin).
+    model: StartLux-Decision-v1.1-27B-Instant
+    api_key: EMPTY
+    timeout: 60
+    min_interval: 2.0         # seconds between requests (rate-limit pacing; 0 disables)
+    local_min_interval: 0.0   # local server path (default): no sleep
+    retry_delay: 5.0          # seconds to wait before retrying a transient failure (429/5xx/network);
+                               # retries until success. Non-retryable errors (e.g. 401) raise immediately.
+    max_candidates: 255
+    two_stage: true           # stage-1 choice over action-type templates
+                               # (e.g. "focus on OBJ"), stage-2 choice within the chosen
+                               # template's group. Requires Candidate.template labels from
+                               # the env adapter; envs without labels stay single-stage.
+                               # confidence = min(p_template, p_action): the S2
+                               # trigger fires when either stage is below the threshold.
+  stub: {}
+  # The aligned llm_agent ablation (run.mode: llm_agent) swaps System-1 for an
+  # LLM; the same System-2 and the same three skill components are unchanged.
+  llm:
+    # Thinking for the LLM S1 decision is set per mode by build_agent: on
+    # (1024-token cap) in llm_agent and llm. 8K answer cap.
+    max_tokens: 8192
+    extra_body:
+      chat_template_kwargs:
+        enable_thinking: false
+
+system2:
+  backend: stub             # llm | stub | none (none: no skill learning)
+  llm:
+    base_url: http://localhost:8000/v1
+    model: Qwen3.8-27B         # served by scripts/serve_llm_vllm.sh (TP=2)
+    api_key: EMPTY
+    temperature: 0.0           # greedy: judge / develop / llm_agent S1
+    # Reasoning-style gateway models (deepseek-v4-flash) spend completion
+    # tokens on thinking before the visible answer; a low cap starved longer
+    # deliberations (observed: empty content at exactly max_tokens, e.g.
+    # SKILL-turn attempts). This is the per-request OUTPUT cap only
+    # (completion tokens incl. reasoning) -- the context window is separate
+    # (128K, serve_llm_vllm.sh MAX_LEN / the gateway's model limit).
+    max_tokens: 8192
+    timeout: 120
+    # Server-side thinking cap (vLLM's ``thinking_token_budget`` request field):
+    # the engine forces the end-of-thinking string after this many reasoning
+    # tokens and continues into the answer. Effective only when thinking is on
+    # for the section. Requires the vLLM server to be started with
+    # --reasoning-parser qwen3 --reasoning-config (scripts/serve_llm_vllm.sh);
+    # without it vLLM rejects the field with a 400. Applies to the judge and,
+    # via inheritance, to system1.llm in llm_agent mode.
+    thinking_token_budget: 1024
+    # Qwen3.8 thinks by default; disable it for fast, direct skill-markdown output.
+    extra_body:
+      chat_template_kwargs:
+        enable_thinking: false
+    # The develop turn (skill development): build_agent keeps thinking on
+    # (1024-token cap) in both dual and llm_agent; the 16384 output cap is the
+    # answer budget (thinking + skill markdown). This is the S0c default.
+    develop:
+      max_tokens: 16384
+      timeout: 600
+      thinking_token_budget: 1024
+      extra_body:
+        chat_template_kwargs:
+          enable_thinking: true
+  # System-2 runs in its own process; System-1 never waits for it (only the
+  # run end drains the queue). Review = judge turn (may decline) -> develop.
+  # M5.2 F1: show per-step reward deltas and the fatal outcome to the judge.
+  progress_feedback: false
+  # M5.3: how many retrieved components the judge sees for this situation
+  # (0 = the M5 behaviour: the first six per kind, insertion order).
+  judge_pool: 8                # components retrieval ranks for the judge (0 = first six per kind)
+  process:
+    mode: process           # process | thread (thread: same loop in-process, tests)
+    num_workers: 4          # reviews run concurrently inside the S2 process
+    after_steps: 3          # wait this many steps after the uncertain one
+    queue_size: 64          # ready reviews; beyond it the oldest is dropped
+    max_fixes: 1            # develop retries after a failed admission check
+
+# A step is sent to System-2 for review when System-1's confidence (weakest
+# stage for two-stage choices) is below this threshold.
+trigger:
+  confidence_threshold: 0.5
+
+# The three skill components System-2 maintains for System-1, one markdown
+# file per skill in skills.dir/<env>/.
+#   procedure -- short advice, retrieved by BM25 before every step;
+#   state     -- a small Python extractor naming the current exploration
+#                state; the framework persists the visited-state graph and
+#                shows its summary as state_memory;
+# Utility is per revision: three consecutive failed episodes block a skill
+# from retrieval. System-2 can revise a blocked skill to reset its counters.
+skills:
+  dir: skills_store
+  snapshot_dir: runs/skills
+  freeze: null                 # auto: every phase writable (System-2 keeps
+                               #   assisting in eval); true = eval copies read-only
+  top_k: 3                     # procedures shown per step
+  max_body_chars: 2000         # admission cap on a skill body
+  block_after: 3               # consecutive failed episodes before blocking
+  bm25_k1: 1.5
+  bm25_b: 0.75
+  bm25_keyword_boost: 2
+  # M5.1 switches (default off reproduce M5 exactly).
+  # M5.3: collapse a new component into a REVISE of the nearest existing one
+  # when they express the same idea, so the library stops growing by variants.
+  dedup: true                  # a new component that restates an existing one revises it
+  dedup_similarity: 0.55       # Jaccard over name/when/keywords tokens; 0.55 merges
+                               # a large share of MiniGrid procedures on M5.1
+  lifecycle:
+    mode: absolute             # absolute | relative
+    ablation_rate: 0.15        # train episodes with no skills, for the baseline
+    min_baseline_trials: 2     # otherwise fall back to absolute blocking
+    min_uses: 3
+    min_gain: 0.0
+    progress: false            # F3: continuous normalized progress instead of 0/1
+    snapshot_require_validated: false
+    snapshot_fallback_top_k: 3
+    max_history: 8
+  positive_only: false         # reject negated prose in procedure bodies
+  avoid_guard: false           # require avoid patterns grounded in the episode
+  fatal_guard:
+    enabled: false
+    threshold: -99
+    min_support: 1
+    min_remaining: 1
+    require_object_match: true
+    admission: false          # F2: reject advice that matches a learned fatal rule
+    admission_min_support: 1
+  state:
+    max_program_chars: 6000
+    step_budget_ms: 50
+    max_lines: 20000
+    view_chars: 1200           # graph summary size in S1's prompt
+    graph_nodes: 12            # nodes / outgoing edges listed
+    goal_similarity: 0.5       # min goal-form similarity for state selection
+    require_goal_match: false  # M5.1 E turns this on
+    fallback_same_task: false
+    require_informative: false # reject all-null/constant state programs
+    min_known_ratio: 0.25
+    min_distinct_states: 1
+    require_goal_numbers: true
+    surface_facts: false       # expose computed dict data to S1
+    credit_informative: false  # only credit informative state programs
+    max_facts_chars: 800
+  # M5.3 world model: System-2 writes one program per environment (shared by its
+  # tasks; the goal tells them apart) predicting what each legal action does now ({action: {effect, same/ends/reward/see/carry}}); the
+  # effect is shown next to the action and every prediction for the executed
+  # action is checked against the next step.  A train episode with a wrong
+  # prediction (or no model yet) queues a revision without a judge turn; a
+  # model is admitted on its accuracy over recorded train transitions of every
+  # task (buffers are kept per task).
+  # Not credited with episode outcomes and never blocked.
+  world_model:
+    enabled: true              # System-2 maintains one action model per environment
+    max_program_chars: 20000
+    budget_ms: 300               # per predict() call
+    max_lines: 500000
+    effect_chars: 160
+    memory: 200                  # outcome rows handed to predict()
+    buffer_rows: 400             # train transitions kept per task (eval never writes)
+    replay_rows: 150             # recorded transitions scored at admission (spread over tasks), plus the episode
+    min_coverage: 0.5            # share of scored steps with a checkable prediction
+    min_accuracy: 0.6            # the first model
+    regression_tolerance: 0.02   # a revision may not be less accurate than the current model
+    max_fixes: 2
+    max_misses: 8                # wrong predictions shown to System-2
+

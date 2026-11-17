@@ -1,0 +1,7740 @@
+[
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000000",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000000,
+  "seed": 2000000,
+  "action_kind": "goto",
+  "mission": "go to the red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "608a0e279b359c018c45b8ad5293d0aea289c68a",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000001",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000001,
+  "seed": 2000001,
+  "action_kind": "pickup",
+  "mission": "pick up a yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "9cdca8d3b1f8d2f46eeaf1469665a675d339e490",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000005",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000005,
+  "seed": 2000005,
+  "action_kind": "open",
+  "mission": "open the red door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "green",
+    "box"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "door"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "0bbbb6368a589cd4cfe14327a92c95f955cc4dce",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000012",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000012,
+  "seed": 2000012,
+  "action_kind": "putnext",
+  "mission": "put a red key next to the yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "a8747fac006e8f0f5148a575641fa36397fbea12",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000008",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000008,
+  "seed": 2000008,
+  "action_kind": "pick up seq go to",
+  "mission": "go to a green ball after you pick up a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ]
+  ],
+  "fingerprint": "766601f29de772f9600ae4e6cf5d3f9418be671a",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000002",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000002,
+  "seed": 2000002,
+  "action_kind": "goto",
+  "mission": "go to a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ]
+  ],
+  "fingerprint": "fa415af615cd01d89aa3cc2d147eab18317a6bcc",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000020",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000020,
+  "seed": 2000020,
+  "action_kind": "pickup",
+  "mission": "pick up a yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "88e2bb2ab0c50abba4b7566fc18b237819e5d3c9",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000006",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000006,
+  "seed": 2000006,
+  "action_kind": "open",
+  "mission": "open the red door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "door"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "d0b6dd5ff72edab0d433a64aac90c667a5ed6940",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000017",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000017,
+  "seed": 2000017,
+  "action_kind": "putnext",
+  "mission": "put the red key next to the yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "212632ae5d2edd986c3c9cef2dfa5d30d5f33ae2",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000010",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000010,
+  "seed": 2000010,
+  "action_kind": "pick up seq go to",
+  "mission": "go to the green ball after you pick up the yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "53ce4d1877bda57c8e6f45098c61d2051338d6ca",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000003",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000003,
+  "seed": 2000003,
+  "action_kind": "goto",
+  "mission": "go to a red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "8adf86e53d76e50a060aff177f02432eb49ebc77",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000024",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000024,
+  "seed": 2000024,
+  "action_kind": "pickup",
+  "mission": "pick up the yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "e50d795121ec3dd16bc9806e509431c1cf31db43",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000015",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000015,
+  "seed": 2000015,
+  "action_kind": "open",
+  "mission": "open the red door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "door"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "88ca9c48ccff60afd67feea47fa549fa0ef89753",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000018",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000018,
+  "seed": 2000018,
+  "action_kind": "putnext",
+  "mission": "put the green ball next to a yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "d7fbd9d93a817d6a3f40859d0206b14f6919c041",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000013",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000013,
+  "seed": 2000013,
+  "action_kind": "pick up seq go to",
+  "mission": "go to the yellow box after you pick up a red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "c6b1765f865d14e2a01c60716ff3c2f12e61dc52",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000004",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000004,
+  "seed": 2000004,
+  "action_kind": "goto",
+  "mission": "go to a yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "8136935a926ddd7e791126bf9bde6347a52a6a8a",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000025",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000025,
+  "seed": 2000025,
+  "action_kind": "pickup",
+  "mission": "pick up the red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "2620b24b1c009482620ebab5bb52d2f60f4b8d3d",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000023",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000023,
+  "seed": 2000023,
+  "action_kind": "open",
+  "mission": "open the grey door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "door"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "2edfec39941894f3b79d46d1e93e9c2a7c2e912c",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000021",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000021,
+  "seed": 2000021,
+  "action_kind": "putnext",
+  "mission": "put a red key next to a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "a7e4eaa6adc2aa72bcf1e72ac528253ece9e34f1",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000019",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000019,
+  "seed": 2000019,
+  "action_kind": "pick up seq go to",
+  "mission": "pick up a yellow box, then go to a yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "32626bb7ea1320d790723c544bb412152c2aeefe",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000007",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000007,
+  "seed": 2000007,
+  "action_kind": "goto",
+  "mission": "go to the red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "97c3176dc753e1c6933a20129916cdf44514be02",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000027",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000027,
+  "seed": 2000027,
+  "action_kind": "pickup",
+  "mission": "pick up a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "ef08e7aedca69523c1a51904daa24a1e98fac097",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000031",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000031,
+  "seed": 2000031,
+  "action_kind": "open",
+  "mission": "open the red door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "door"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "bf85377f057e552536e63ac664581ede1e1e4b95",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000033",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000033,
+  "seed": 2000033,
+  "action_kind": "putnext",
+  "mission": "put the yellow box next to a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "6bd1f19bd393e71b8608a5e4095318b9d8ab2711",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000028",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000028,
+  "seed": 2000028,
+  "action_kind": "pick up seq go to",
+  "mission": "go to a red key after you pick up a red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "8e38e5a7bc6a62ded59f647f7c6e0b954172ffcf",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000009",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000009,
+  "seed": 2000009,
+  "action_kind": "goto",
+  "mission": "go to the yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "4fa8b294e4ea11bd4b26158a81affd06eb8c8242",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000030",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000030,
+  "seed": 2000030,
+  "action_kind": "pickup",
+  "mission": "pick up the red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ]
+  ],
+  "fingerprint": "cac165b930a7dbf1838d2435cce6ea4a34dab6ae",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000032",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000032,
+  "seed": 2000032,
+  "action_kind": "open",
+  "mission": "open the red door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "door"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "22e7dd11f3eff20eb111df66a5537f0602fbb9d2",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000039",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000039,
+  "seed": 2000039,
+  "action_kind": "putnext",
+  "mission": "put a green ball next to the red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "key"
+   ]
+  ],
+  "fingerprint": "312dff40de05b3bd1626f0193b99dc24ecb3a406",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000035",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000035,
+  "seed": 2000035,
+  "action_kind": "pick up seq go to",
+  "mission": "pick up the green ball, then go to a red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "a2991d1b8fe01006447f4c1cb0a0c82fd934cc3a",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000011",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000011,
+  "seed": 2000011,
+  "action_kind": "goto",
+  "mission": "go to the red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ]
+  ],
+  "fingerprint": "90ceed9327c22b18923803e4aa09791ca50c47e0",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000034",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000034,
+  "seed": 2000034,
+  "action_kind": "pickup",
+  "mission": "pick up the yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "8d561c3cc10880968950bd260bffc04ae21a1ef2",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000037",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000037,
+  "seed": 2000037,
+  "action_kind": "open",
+  "mission": "open the grey door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "door"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ]
+  ],
+  "fingerprint": "c6090e3bd46ff42adf87665b6fcea50916d2c5ed",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000050",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000050,
+  "seed": 2000050,
+  "action_kind": "putnext",
+  "mission": "put a yellow box next to the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "094c09055834c805b4a30aa9fe9fba99b8ad43de",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000044",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000044,
+  "seed": 2000044,
+  "action_kind": "pick up seq go to",
+  "mission": "go to a yellow box after you pick up the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "e7000b2d871550bba83285b6d63d0be0b00e5353",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000014",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000014,
+  "seed": 2000014,
+  "action_kind": "goto",
+  "mission": "go to the yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "af630d6d76123aa898accffeabd391bde754b01c",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000042",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000042,
+  "seed": 2000042,
+  "action_kind": "pickup",
+  "mission": "pick up the red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "645e356535f30f5d983eaea895e80ade58f18330",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000041",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000041,
+  "seed": 2000041,
+  "action_kind": "open",
+  "mission": "open the grey door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "door"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "3e35eb9961b29c9fa63044a50f411dd167af846b",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000051",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000051,
+  "seed": 2000051,
+  "action_kind": "putnext",
+  "mission": "put the yellow box next to the red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "1e1fbfbb1c5e2eacad232f1f13288274f246aa9e",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000048",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000048,
+  "seed": 2000048,
+  "action_kind": "pick up seq go to",
+  "mission": "go to the yellow box after you pick up the red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "93f32fc6c4a827a476ad8199d2c7e90b4dc926af",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000016",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000016,
+  "seed": 2000016,
+  "action_kind": "goto",
+  "mission": "go to the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "753c522dfe523588b0e0f351ebd68038fa92e985",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000045",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000045,
+  "seed": 2000045,
+  "action_kind": "pickup",
+  "mission": "pick up a yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "130efd63319b4511f2ab37efc2dd702c01a57512",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000046",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000046,
+  "seed": 2000046,
+  "action_kind": "open",
+  "mission": "open the grey door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "door"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ]
+  ],
+  "fingerprint": "66b16ed9dd3a1861948f6f9924fe4bf37e88b6e6",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000056",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000056,
+  "seed": 2000056,
+  "action_kind": "putnext",
+  "mission": "put the yellow box next to a red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "295ed54b2bc5c4950c00d55a1ac6c670c81fb7a4",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000053",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000053,
+  "seed": 2000053,
+  "action_kind": "pick up seq go to",
+  "mission": "go to the red key after you pick up the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "key"
+   ]
+  ],
+  "fingerprint": "5fe7fcf46da2aa83ac716766ed08709e473fc657",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000022",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000022,
+  "seed": 2000022,
+  "action_kind": "goto",
+  "mission": "go to a red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "44dc6b40124e46671f61d9c97cc10ef7b4cd6ca8",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000047",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000047,
+  "seed": 2000047,
+  "action_kind": "pickup",
+  "mission": "pick up the yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "d93b2aef56a953ee7944dd32f28e014a96511bf7",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000055",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000055,
+  "seed": 2000055,
+  "action_kind": "open",
+  "mission": "open the red door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "door"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ]
+  ],
+  "fingerprint": "b6903701b1718dfb6eb2bc7749ee3374433391bc",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000057",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000057,
+  "seed": 2000057,
+  "action_kind": "putnext",
+  "mission": "put the yellow box next to the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "5268838c659d0b1113debd49d0286e679236e909",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000061",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000061,
+  "seed": 2000061,
+  "action_kind": "pick up seq go to",
+  "mission": "pick up a green ball, then go to the yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "2378bde95d232b0ce1dfd3583719b6c327fa572b",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000026",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000026,
+  "seed": 2000026,
+  "action_kind": "goto",
+  "mission": "go to the yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "2753f4d0cb16554c55907eea9540c115331056e0",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000054",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000054,
+  "seed": 2000054,
+  "action_kind": "pickup",
+  "mission": "pick up the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "6c31486b8b69a26698a5eb7a53f6d1575b3b98d2",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000065",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000065,
+  "seed": 2000065,
+  "action_kind": "open",
+  "mission": "open the grey door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "door"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "aedfa8c4f4b2b58c3b322942f1a60501fcb3690d",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000077",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000077,
+  "seed": 2000077,
+  "action_kind": "putnext",
+  "mission": "put the yellow box next to the red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "0a3fd71f9a5933c4d9df6a6ed612d71e81156e1d",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000069",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000069,
+  "seed": 2000069,
+  "action_kind": "pick up seq go to",
+  "mission": "go to a yellow box after you pick up a yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "7162cdb8a76df76410b656091bfbc71bf3564a49",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000029",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000029,
+  "seed": 2000029,
+  "action_kind": "goto",
+  "mission": "go to the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "9a387247d98d69c2393cf81d58307ad048862a3e",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000059",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000059,
+  "seed": 2000059,
+  "action_kind": "pickup",
+  "mission": "pick up the yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "fc6309c464ecae68290721075ee2696d0cff2a4b",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000067",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000067,
+  "seed": 2000067,
+  "action_kind": "open",
+  "mission": "open the red door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "door"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "0cb4766cb9051c583af134924df5689de34be763",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000082",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000082,
+  "seed": 2000082,
+  "action_kind": "putnext",
+  "mission": "put the yellow box next to a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "88144ee5fc8e44293a9d90077873fe651c38665f",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000074",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000074,
+  "seed": 2000074,
+  "action_kind": "pick up seq go to",
+  "mission": "go to the yellow box after you pick up the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "569f0495c000e43dceee71264c7d9ad8b647c514",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000036",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000036,
+  "seed": 2000036,
+  "action_kind": "goto",
+  "mission": "go to the yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "b71869439eaacc68cb3c69b32911f77a48dd7306",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000062",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000062,
+  "seed": 2000062,
+  "action_kind": "pickup",
+  "mission": "pick up the yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "41d658635b60dad0ee6d555c1e4643238c451b92",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000068",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000068,
+  "seed": 2000068,
+  "action_kind": "open",
+  "mission": "open the grey door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "door"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "2db308ed13502c6410cba868c905335fbc934e06",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000096",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000096,
+  "seed": 2000096,
+  "action_kind": "putnext",
+  "mission": "put the yellow box next to the red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "5ffffa3d422a4d723685464748df1b55ff6a7f37",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000078",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000078,
+  "seed": 2000078,
+  "action_kind": "pick up seq go to",
+  "mission": "pick up a red key, then go to a red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "1016e57fa7ac3050643206a46f8581306944f643",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000038",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000038,
+  "seed": 2000038,
+  "action_kind": "goto",
+  "mission": "go to the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ]
+  ],
+  "fingerprint": "ca0ce76129f0d512118c47f0f2f8967dcc354cca",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000072",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000072,
+  "seed": 2000072,
+  "action_kind": "pickup",
+  "mission": "pick up the red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "2b38c5005065d87669a4bb1733c65830de50a807",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000071",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000071,
+  "seed": 2000071,
+  "action_kind": "open",
+  "mission": "open the grey door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "door"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "key"
+   ]
+  ],
+  "fingerprint": "0b55e4b4da9b1a31f9d5fec37a491147c26258b9",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000102",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000102,
+  "seed": 2000102,
+  "action_kind": "putnext",
+  "mission": "put the red key next to the yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "0387b02bccabd7992078350117b009cf01a4e53e",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000079",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000079,
+  "seed": 2000079,
+  "action_kind": "pick up seq go to",
+  "mission": "pick up a yellow box, then go to the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "8088ed1b81d0d8e2d83a2810c9e443af287a677e",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000040",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000040,
+  "seed": 2000040,
+  "action_kind": "goto",
+  "mission": "go to a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "63bfbd7dff5a058b79bf22cd77f49386ffe1e0a6",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000080",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000080,
+  "seed": 2000080,
+  "action_kind": "pickup",
+  "mission": "pick up a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "d0dab8d31d809d6cdbccb04a7edf46e44444388f",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000075",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000075,
+  "seed": 2000075,
+  "action_kind": "open",
+  "mission": "open the red door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "door"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "9476d04a4b65fd8f83f6b98458913fd8a35bd110",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000105",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000105,
+  "seed": 2000105,
+  "action_kind": "putnext",
+  "mission": "put a yellow box next to the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "b2da0120af19bb222a94e8e326cfe5dc40584090",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000081",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000081,
+  "seed": 2000081,
+  "action_kind": "pick up seq go to",
+  "mission": "go to a green ball after you pick up a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "9d3abc9c55a5ac8aa3366b0da36e1286fe6ebb73",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000043",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000043,
+  "seed": 2000043,
+  "action_kind": "goto",
+  "mission": "go to the red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "15befb2317c923eff4e6ff6fde088e25bb792c42",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000089",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000089,
+  "seed": 2000089,
+  "action_kind": "pickup",
+  "mission": "pick up the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ]
+  ],
+  "fingerprint": "e65a6dd16154be76bde6b18b5fd3c1b721edc3f6",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000076",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000076,
+  "seed": 2000076,
+  "action_kind": "open",
+  "mission": "open the red door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "door"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ]
+  ],
+  "fingerprint": "048e7c855c4715ec71c9f43c70936d1b9b0debc2",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000106",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000106,
+  "seed": 2000106,
+  "action_kind": "putnext",
+  "mission": "put the red key next to the yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "c6bba50ac7ea94c929bcc757d0518050379c4f8e",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000085",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000085,
+  "seed": 2000085,
+  "action_kind": "pick up seq go to",
+  "mission": "go to a green ball after you pick up a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "ball"
+   ]
+  ],
+  "fingerprint": "112c1e8d5832bebb9a0fdf3a3ddd7f9aa11817a7",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000049",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000049,
+  "seed": 2000049,
+  "action_kind": "goto",
+  "mission": "go to a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "7e838e2180beeb542cbaaaa2fa0b397ece5d3530",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000092",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000092,
+  "seed": 2000092,
+  "action_kind": "pickup",
+  "mission": "pick up the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "7ecb43459798ec288505ed80d055d1ecf1798523",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000086",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000086,
+  "seed": 2000086,
+  "action_kind": "open",
+  "mission": "open the grey door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "door"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "35477aab0b9330b1acd0d1a728ff59f9290bfe04",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000116",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000116,
+  "seed": 2000116,
+  "action_kind": "putnext",
+  "mission": "put the green ball next to a red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ]
+  ],
+  "fingerprint": "99d418c848a720beefb5ec57fcdd39518ce1c858",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000091",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000091,
+  "seed": 2000091,
+  "action_kind": "pick up seq go to",
+  "mission": "pick up a green ball, then go to a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "box"
+   ]
+  ],
+  "fingerprint": "9c6f17ee130caeeaef39a0ad4d3c63462572538a",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000052",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000052,
+  "seed": 2000052,
+  "action_kind": "goto",
+  "mission": "go to the red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "8bd5936fabd2d0e8b8c973c05a6d9c8184e75868",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000109",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000109,
+  "seed": 2000109,
+  "action_kind": "pickup",
+  "mission": "pick up a red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "d17e52c82cae80f94394204f0e6948305845b786",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000088",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000088,
+  "seed": 2000088,
+  "action_kind": "open",
+  "mission": "open the grey door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "door"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "box"
+   ]
+  ],
+  "fingerprint": "4e623fe16cf6e11f4afbc1ae834f392331584671",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000122",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000122,
+  "seed": 2000122,
+  "action_kind": "putnext",
+  "mission": "put a red key next to a yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "478365db27e2e4d893ccb68f0616b480a78c4082",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000099",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000099,
+  "seed": 2000099,
+  "action_kind": "pick up seq go to",
+  "mission": "go to the red key after you pick up the yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "1b76db6863755bc7ff088ee4cc720a7cd8612a00",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000058",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000058,
+  "seed": 2000058,
+  "action_kind": "goto",
+  "mission": "go to the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ]
+  ],
+  "fingerprint": "3f47c66c0e45ec94443ba28f322f6a8ac8c4639c",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000110",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000110,
+  "seed": 2000110,
+  "action_kind": "pickup",
+  "mission": "pick up a red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ]
+  ],
+  "fingerprint": "05083e92f044c5e7f7226d93813cae3e313db740",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000097",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000097,
+  "seed": 2000097,
+  "action_kind": "open",
+  "mission": "open the red door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "door"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "2621bfc4a1c7769148492497c80e860f937cc16c",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000127",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000127,
+  "seed": 2000127,
+  "action_kind": "putnext",
+  "mission": "put a green ball next to the red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "c5b08ca1b53a38ac9493bd9348e51188756f9f30",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000101",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000101,
+  "seed": 2000101,
+  "action_kind": "pick up seq go to",
+  "mission": "pick up the green ball, then go to the yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "85f71b86d33c299287a264a4b1878deb1690d04c",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000060",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000060,
+  "seed": 2000060,
+  "action_kind": "goto",
+  "mission": "go to a yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "2d46a070fb42a54d2838e722245b430497708e09",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000115",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000115,
+  "seed": 2000115,
+  "action_kind": "pickup",
+  "mission": "pick up the red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "c7a6567230b8e83991ca2f55bfb8200d8385fe2d",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000098",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000098,
+  "seed": 2000098,
+  "action_kind": "open",
+  "mission": "open the grey door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "door"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ]
+  ],
+  "fingerprint": "96b1e5934d4c3bf18b5a3e0d6e827e7cf23c5d9c",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000132",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000132,
+  "seed": 2000132,
+  "action_kind": "putnext",
+  "mission": "put the green ball next to a yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "e111e574ddcc7a01acdc385faa11f30b14200afe",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000111",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000111,
+  "seed": 2000111,
+  "action_kind": "pick up seq go to",
+  "mission": "go to a red key after you pick up a red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "2562ab66681eeeb2cc1cab91aaa6d91ba5c90042",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000063",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000063,
+  "seed": 2000063,
+  "action_kind": "goto",
+  "mission": "go to a yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "cef51b965f2000861f404362f1d93f18308d0900",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000117",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000117,
+  "seed": 2000117,
+  "action_kind": "pickup",
+  "mission": "pick up a yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "8850fe84552379a941d3c74d2c1483adf8bb653f",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000100",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000100,
+  "seed": 2000100,
+  "action_kind": "open",
+  "mission": "open the grey door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "door"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ]
+  ],
+  "fingerprint": "0b69affd8c485eb2cb264cec6498fa26c7902319",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000133",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000133,
+  "seed": 2000133,
+  "action_kind": "putnext",
+  "mission": "put a yellow box next to the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "a6f668a2f20b61e7694c06d4ace232679591189d",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000119",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000119,
+  "seed": 2000119,
+  "action_kind": "pick up seq go to",
+  "mission": "pick up a yellow box, then go to a yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "fd6fe4d56e1f8be8d75c21e8f6e2888385f64893",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000064",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000064,
+  "seed": 2000064,
+  "action_kind": "goto",
+  "mission": "go to the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "b2c367cca2524a0af9c2f48725d98b84a608eac0",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000120",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000120,
+  "seed": 2000120,
+  "action_kind": "pickup",
+  "mission": "pick up the red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "key"
+   ]
+  ],
+  "fingerprint": "2410fc0d216843784c5240e9c7e020adef838a3c",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000103",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000103,
+  "seed": 2000103,
+  "action_kind": "open",
+  "mission": "open the red door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "door"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "47f59d08b0c2c443522499c3a7a2d8a38a2f7543",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000139",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000139,
+  "seed": 2000139,
+  "action_kind": "putnext",
+  "mission": "put the yellow box next to a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "85ec24f91e8526915b12356d81b93868aed701c6",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000121",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000121,
+  "seed": 2000121,
+  "action_kind": "pick up seq go to",
+  "mission": "go to a yellow box after you pick up the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "82812f262061a58d2b9b4031e928b88849ebe720",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000066",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000066,
+  "seed": 2000066,
+  "action_kind": "goto",
+  "mission": "go to the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ]
+  ],
+  "fingerprint": "3386038e1a7155ea920081e28fb82cb36b339670",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000125",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000125,
+  "seed": 2000125,
+  "action_kind": "pickup",
+  "mission": "pick up a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ]
+  ],
+  "fingerprint": "407d99aa3a1f91703be03757232ded0718036a4b",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000104",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000104,
+  "seed": 2000104,
+  "action_kind": "open",
+  "mission": "open the grey door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "door"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "ee68f4a05b47d908f1b26006ee0981ea193c84a6",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000153",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000153,
+  "seed": 2000153,
+  "action_kind": "putnext",
+  "mission": "put the red key next to the yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "10ce6b3ce2ee16bee36db9facff27e11fc8b1db7",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000123",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000123,
+  "seed": 2000123,
+  "action_kind": "pick up seq go to",
+  "mission": "go to a green ball after you pick up a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "70e4b5594f9142268abb619649e50adafe3d1efd",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000070",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000070,
+  "seed": 2000070,
+  "action_kind": "goto",
+  "mission": "go to the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "a40674f858cd1c4bc44ae1b97935635978a9d15d",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000128",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000128,
+  "seed": 2000128,
+  "action_kind": "pickup",
+  "mission": "pick up a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "4effff6a2c2defd941eadc0d65618b23a8a11031",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000108",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000108,
+  "seed": 2000108,
+  "action_kind": "open",
+  "mission": "open the grey door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "door"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "8e5f86d448c90e002ad88cc059c82c918441dae4",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000155",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000155,
+  "seed": 2000155,
+  "action_kind": "putnext",
+  "mission": "put the green ball next to the red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "00d460b0c8e02c2264539f54d34ee8d1464c6d8b",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000131",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000131,
+  "seed": 2000131,
+  "action_kind": "pick up seq go to",
+  "mission": "go to a yellow box after you pick up a yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "1b9a31c9c1c33f70569f11d571a0cdc6b8e40b58",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000073",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000073,
+  "seed": 2000073,
+  "action_kind": "goto",
+  "mission": "go to the yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "98aa34b0d269b09437d0cadcad6c78724f6dda5a",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000134",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000134,
+  "seed": 2000134,
+  "action_kind": "pickup",
+  "mission": "pick up the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "53a3c16e66125fc7c5acb0d8fdf5f25c5c57d819",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000113",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000113,
+  "seed": 2000113,
+  "action_kind": "open",
+  "mission": "open the red door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "door"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ]
+  ],
+  "fingerprint": "2ae17d485fe0fbd09f66a51411120a9a7f1224af",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000169",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000169,
+  "seed": 2000169,
+  "action_kind": "putnext",
+  "mission": "put the green ball next to a red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "d1f14ad7cb12ec0b70b079b9268e178c0ca5beca",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000137",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000137,
+  "seed": 2000137,
+  "action_kind": "pick up seq go to",
+  "mission": "go to a red key after you pick up a red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "b5d92aa81000db9dcafef197063d95534afbe0ab",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000083",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000083,
+  "seed": 2000083,
+  "action_kind": "goto",
+  "mission": "go to the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "9b0c6912028ed179c7fd298a061ca57afb243681",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000148",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000148,
+  "seed": 2000148,
+  "action_kind": "pickup",
+  "mission": "pick up a red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "bd10650f488f176bef72c49120f1ef235588de8e",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000114",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000114,
+  "seed": 2000114,
+  "action_kind": "open",
+  "mission": "open the grey door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "green",
+    "box"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "door"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "45f71fb4e0aa6cb8dee984d96bbb5c9817a00650",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000171",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000171,
+  "seed": 2000171,
+  "action_kind": "putnext",
+  "mission": "put the red key next to a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ]
+  ],
+  "fingerprint": "462691712a5695761dc812e256341623aa6ca641",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000138",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000138,
+  "seed": 2000138,
+  "action_kind": "pick up seq go to",
+  "mission": "go to a green ball after you pick up a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "fc8a5931c89efc3071719eba2c5cf62a971ec0ba",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000084",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000084,
+  "seed": 2000084,
+  "action_kind": "goto",
+  "mission": "go to a yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "c97e9fe9194e84e6857e9a4cd0d3899541e522cc",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000156",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000156,
+  "seed": 2000156,
+  "action_kind": "pickup",
+  "mission": "pick up the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "yellow",
+    "ball"
+   ]
+  ],
+  "fingerprint": "b42d0a2d9efc1dde87eabe198a0d60ec9f6d85b7",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000118",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000118,
+  "seed": 2000118,
+  "action_kind": "open",
+  "mission": "open the red door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "door"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "5d55190844fae65394ffb7c8fa9dc49f5bc9c414",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000173",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000173,
+  "seed": 2000173,
+  "action_kind": "putnext",
+  "mission": "put the red key next to a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "fe5bd2d48795f896c11e66d44afb4f3a057cb163",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000143",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000143,
+  "seed": 2000143,
+  "action_kind": "pick up seq go to",
+  "mission": "pick up a green ball, then go to a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "yellow",
+    "ball"
+   ]
+  ],
+  "fingerprint": "c66bcde403d286cdaabcc811f8ab8fd40f1cf2a6",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000087",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000087,
+  "seed": 2000087,
+  "action_kind": "goto",
+  "mission": "go to the yellow box",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "7278c35b2f0fc88bfa04317e21c71349395c5b6d",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000158",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000158,
+  "seed": 2000158,
+  "action_kind": "pickup",
+  "mission": "pick up a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "afac84120a817362df8f9f0c9c305c074002c6b0",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000130",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000130,
+  "seed": 2000130,
+  "action_kind": "open",
+  "mission": "open the red door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "door"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ]
+  ],
+  "fingerprint": "c162349df0f0306773b307ea7ccb89209fd7e400",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000174",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000174,
+  "seed": 2000174,
+  "action_kind": "putnext",
+  "mission": "put the red key next to the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "03fe788003036f76c1588f4dc77c2851f3a3d25d",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000144",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000144,
+  "seed": 2000144,
+  "action_kind": "pick up seq go to",
+  "mission": "pick up a green ball, then go to a red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "f72aa7f33f9b0092c76d8f48ed9c6415fc045d83",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000090",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000090,
+  "seed": 2000090,
+  "action_kind": "goto",
+  "mission": "go to the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ]
+  ],
+  "fingerprint": "b652ac3506fda49d185b07aefae5e6e71dfeda78",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000164",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000164,
+  "seed": 2000164,
+  "action_kind": "pickup",
+  "mission": "pick up the red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "d414af04a3b8b39328def79c742c94fe2a432b12",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000135",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000135,
+  "seed": 2000135,
+  "action_kind": "open",
+  "mission": "open the grey door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "green",
+    "box"
+   ],
+   [
+    "grey",
+    "door"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ]
+  ],
+  "fingerprint": "5498568594aac525b06639f8b1ea36d65ec755bd",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000177",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000177,
+  "seed": 2000177,
+  "action_kind": "putnext",
+  "mission": "put a red key next to the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "ball"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "ee79a96c7c16d855cb648f6d7e9a4cbd8440ad3e",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000145",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000145,
+  "seed": 2000145,
+  "action_kind": "pick up seq go to",
+  "mission": "pick up the red key, then go to a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "box"
+   ],
+   [
+    "red",
+    "key"
+   ]
+  ],
+  "fingerprint": "bda51a947dbc819a7af476b09cac8e056d53f896",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000093",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000093,
+  "seed": 2000093,
+  "action_kind": "goto",
+  "mission": "go to the green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "c345ffc72ed7fe6617ab4f62eb506af502ee0f95",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000170",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000170,
+  "seed": 2000170,
+  "action_kind": "pickup",
+  "mission": "pick up a red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "box"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "ball"
+   ],
+   [
+    "yellow",
+    "box"
+   ]
+  ],
+  "fingerprint": "1dda5bc1d2d07a8fb53236acadb19fc4b029c1a9",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000136",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000136,
+  "seed": 2000136,
+  "action_kind": "open",
+  "mission": "open the red door",
+  "grid_size": [
+   15,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "key"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "box"
+   ],
+   [
+    "red",
+    "door"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "6bfe6210c32fa167587b2e3a9ec0dd6d3aefc1ef",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000178",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000178,
+  "seed": 2000178,
+  "action_kind": "putnext",
+  "mission": "put a yellow box next to a green ball",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "ball"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "box"
+   ],
+   [
+    "grey",
+    "key"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "purple",
+    "key"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "43ff24def49d86508bf36d792564ca5454278019",
+  "source": "BabyAI-MixedTestLocal-v0"
+ },
+ {
+  "item_id": "minigrid_mixedtest_ood_s2000146",
+  "split": "ood",
+  "task": "BabyAI-MixedTestLocal-v0",
+  "variation": 2000146,
+  "seed": 2000146,
+  "action_kind": "pick up seq go to",
+  "mission": "go to a red key after you pick up a red key",
+  "grid_size": [
+   8,
+   8
+  ],
+  "objects": [
+   [
+    "blue",
+    "key"
+   ],
+   [
+    "green",
+    "ball"
+   ],
+   [
+    "grey",
+    "ball"
+   ],
+   [
+    "grey",
+    "wall"
+   ],
+   [
+    "red",
+    "ball"
+   ],
+   [
+    "red",
+    "key"
+   ],
+   [
+    "yellow",
+    "box"
+   ],
+   [
+    "yellow",
+    "key"
+   ]
+  ],
+  "fingerprint": "75dbd65a6fc5516d557951f4206ac61a4be3ec47",
+  "source": "BabyAI-MixedTestLocal-v0"
+ }
+]

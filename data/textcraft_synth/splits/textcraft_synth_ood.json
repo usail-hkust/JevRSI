@@ -1,0 +1,3804 @@
+[
+ {
+  "item_id": "textcraft_synth_ood_00000",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x a1_i5",
+  "target_items": {
+   "a1_i5": 3
+  },
+  "initial_inventory": {
+   "raw_a1": 71,
+   "raw_a9": 27,
+   "raw_a4": 48,
+   "raw_a0": 42,
+   "raw_a3": 26,
+   "raw_a2": 26,
+   "raw_t0": 1
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.0"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00001",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x a3_i6_6_13",
+  "target_items": {
+   "a3_i6_6_13": 3
+  },
+  "initial_inventory": {
+   "raw_a4": 56,
+   "raw_a0": 18,
+   "raw_a7": 4,
+   "raw_a1": 51,
+   "raw_a2": 31,
+   "raw_a3": 43,
+   "raw_a6": 7,
+   "raw_a9": 18,
+   "raw_o8": 2
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.1"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00002",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x o6_i5",
+  "target_items": {
+   "o6_i5": 1
+  },
+  "initial_inventory": {
+   "raw_o2": 3,
+   "raw_o5": 15,
+   "raw_o7": 16,
+   "raw_o3": 8,
+   "raw_o9": 30,
+   "raw_o8": 5,
+   "raw_a0": 5,
+   "raw_a9": 4
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.3"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00003",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x c4_i6_6",
+  "target_items": {
+   "c4_i6_6": 3
+  },
+  "initial_inventory": {
+   "c1_ore": 54,
+   "c9_ore": 152,
+   "c3_ore": 72,
+   "c4_ore": 54,
+   "c6_ore": 89,
+   "c8_ore": 36,
+   "c5_ore": 209,
+   "c7_ore": 46,
+   "c2_ore": 23,
+   "c0_ore": 31,
+   "raw_o4": 4
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.4"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00004",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x m2_i5",
+  "target_items": {
+   "m2_i5": 2
+  },
+  "initial_inventory": {
+   "m3_ore": 57,
+   "m4_ore": 14,
+   "m9_ore": 32,
+   "m1_ore": 12,
+   "m0_ore": 12,
+   "m7_ore": 17,
+   "m6_ore": 4,
+   "c1_ore": 3,
+   "raw_t8": 2
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.19"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00005",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x c8_i6_6_18",
+  "target_items": {
+   "c8_i6_6_18": 1
+  },
+  "initial_inventory": {
+   "c9_ore": 38,
+   "c0_ore": 9,
+   "c5_ore": 62,
+   "c8_ore": 16,
+   "c3_ore": 18,
+   "c4_ore": 24,
+   "c2_ore": 2,
+   "c6_ore": 17,
+   "c7_ore": 12,
+   "c1_ore": 8,
+   "m5_ore": 5,
+   "m2_ore": 3
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.14"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00006",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x t3_i5_23",
+  "target_items": {
+   "t3_i5_23": 2
+  },
+  "initial_inventory": {
+   "raw_t9": 56,
+   "raw_t8": 3,
+   "raw_t3": 21,
+   "raw_t4": 9,
+   "raw_t6": 28,
+   "raw_t0": 57,
+   "raw_t5": 72,
+   "raw_t1": 17,
+   "c5_ore": 1,
+   "raw_t7": 5
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.35"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00007",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x t6_i6_6",
+  "target_items": {
+   "t6_i6_6": 3
+  },
+  "initial_inventory": {
+   "raw_t0": 117,
+   "raw_t7": 38,
+   "raw_t4": 94,
+   "raw_t6": 75,
+   "raw_t9": 79,
+   "raw_t5": 118,
+   "raw_t1": 48,
+   "raw_t3": 62,
+   "raw_t8": 70,
+   "m3_ore": 1,
+   "m2_ore": 1,
+   "raw_o8": 3
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.32"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00008",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x c1_i5_21",
+  "target_items": {
+   "c1_i5_21": 1
+  },
+  "initial_inventory": {
+   "c5_ore": 31,
+   "c0_ore": 11,
+   "c1_ore": 5,
+   "c9_ore": 12,
+   "c3_ore": 7,
+   "c4_ore": 5,
+   "c2_ore": 6,
+   "c6_ore": 15,
+   "m9_ore": 5,
+   "raw_a5": 4,
+   "raw_o4": 4
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.38"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00009",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x m0_i6_6",
+  "target_items": {
+   "m0_i6_6": 3
+  },
+  "initial_inventory": {
+   "m3_ore": 167,
+   "m0_ore": 110,
+   "m7_ore": 87,
+   "m6_ore": 62,
+   "m8_ore": 9,
+   "m5_ore": 66,
+   "m1_ore": 146,
+   "m4_ore": 136,
+   "m9_ore": 51,
+   "raw_o9": 1,
+   "m2_ore": 5
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.34"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00010",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x t8_i5_18",
+  "target_items": {
+   "t8_i5_18": 1
+  },
+  "initial_inventory": {
+   "raw_t0": 29,
+   "raw_t5": 29,
+   "raw_t9": 26,
+   "raw_t1": 13,
+   "raw_t6": 7,
+   "raw_t2": 3,
+   "m1_ore": 4
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.41"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00011",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x m9_i6_6_19",
+  "target_items": {
+   "m9_i6_6_19": 3
+  },
+  "initial_inventory": {
+   "m1_ore": 28,
+   "m3_ore": 30,
+   "m4_ore": 8,
+   "m7_ore": 48,
+   "m6_ore": 13,
+   "m0_ore": 26,
+   "m9_ore": 19,
+   "m5_ore": 6,
+   "m8_ore": 12
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.37"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00012",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x o4_i5_14",
+  "target_items": {
+   "o4_i5_14": 3
+  },
+  "initial_inventory": {
+   "raw_o3": 24,
+   "raw_o2": 18,
+   "raw_o7": 37,
+   "raw_o8": 12,
+   "raw_o4": 18,
+   "raw_o1": 4,
+   "m9_ore": 4
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.43"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00013",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x m1_i6_6_11",
+  "target_items": {
+   "m1_i6_6_11": 1
+  },
+  "initial_inventory": {
+   "m3_ore": 12,
+   "m9_ore": 12,
+   "m8_ore": 6,
+   "m4_ore": 4,
+   "m7_ore": 14,
+   "m6_ore": 7,
+   "m1_ore": 3,
+   "m0_ore": 3,
+   "raw_o3": 5
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.58"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00014",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x c1_i5",
+  "target_items": {
+   "c1_i5": 1
+  },
+  "initial_inventory": {
+   "c9_ore": 28,
+   "c5_ore": 38,
+   "c6_ore": 21,
+   "c8_ore": 9,
+   "c4_ore": 9,
+   "c3_ore": 6,
+   "c7_ore": 25,
+   "c1_ore": 3,
+   "raw_t1": 2
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.49"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00015",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x m7_i6_6",
+  "target_items": {
+   "m7_i6_6": 3
+  },
+  "initial_inventory": {
+   "m1_ore": 44,
+   "m0_ore": 48,
+   "m9_ore": 69,
+   "m3_ore": 137,
+   "m4_ore": 73,
+   "m5_ore": 15,
+   "m6_ore": 31,
+   "m7_ore": 53,
+   "c1_ore": 4,
+   "raw_t0": 5
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.59"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00016",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x a7_i5",
+  "target_items": {
+   "a7_i5": 2
+  },
+  "initial_inventory": {
+   "raw_a1": 10,
+   "raw_a0": 24,
+   "raw_a9": 3,
+   "raw_a2": 17,
+   "raw_a4": 19,
+   "raw_a3": 18,
+   "raw_a6": 9,
+   "raw_a7": 11,
+   "m5_ore": 5,
+   "m2_ore": 3,
+   "raw_t8": 2
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.51"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00017",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x t8_i6_6",
+  "target_items": {
+   "t8_i6_6": 2
+  },
+  "initial_inventory": {
+   "raw_t4": 30,
+   "raw_t1": 30,
+   "raw_t3": 6,
+   "raw_t6": 25,
+   "raw_t9": 40,
+   "raw_t5": 35,
+   "raw_t0": 53,
+   "raw_t7": 11,
+   "raw_t8": 96,
+   "raw_o4": 2
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.86"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00018",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x t0_i5_20",
+  "target_items": {
+   "t0_i5_20": 2
+  },
+  "initial_inventory": {
+   "raw_t1": 46,
+   "raw_t7": 20,
+   "raw_t9": 48,
+   "raw_t3": 19,
+   "raw_t8": 6,
+   "raw_t0": 27,
+   "raw_t4": 24,
+   "raw_a2": 2,
+   "raw_t6": 1
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.61"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00019",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x m2_i6_6_12",
+  "target_items": {
+   "m2_i6_6_12": 1
+  },
+  "initial_inventory": {
+   "m3_ore": 14,
+   "m0_ore": 30,
+   "m7_ore": 11,
+   "m6_ore": 13,
+   "m8_ore": 3,
+   "m5_ore": 9,
+   "m1_ore": 13,
+   "m4_ore": 24,
+   "m9_ore": 4,
+   "raw_o7": 2,
+   "raw_o6": 1
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.87"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00020",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x c1_i5_21",
+  "target_items": {
+   "c1_i5_21": 2
+  },
+  "initial_inventory": {
+   "c5_ore": 64,
+   "c0_ore": 16,
+   "c1_ore": 9,
+   "c9_ore": 36,
+   "c3_ore": 12,
+   "c4_ore": 9,
+   "c2_ore": 9,
+   "c6_ore": 24,
+   "m8_ore": 4
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.62"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00021",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x a0_i6_6",
+  "target_items": {
+   "a0_i6_6": 3
+  },
+  "initial_inventory": {
+   "raw_a3": 47,
+   "raw_a4": 130,
+   "raw_a9": 27,
+   "raw_a1": 107,
+   "raw_a0": 54,
+   "raw_a2": 9,
+   "raw_a7": 8,
+   "raw_t2": 2,
+   "raw_o7": 2
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.94"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00022",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x m8_i5",
+  "target_items": {
+   "m8_i5": 2
+  },
+  "initial_inventory": {
+   "m9_ore": 10,
+   "m1_ore": 28,
+   "m0_ore": 18,
+   "m3_ore": 33,
+   "m4_ore": 11,
+   "raw_t4": 1,
+   "c0_ore": 4,
+   "raw_t7": 1
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.70"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00023",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x a1_i6_6_11",
+  "target_items": {
+   "a1_i6_6_11": 3
+  },
+  "initial_inventory": {
+   "raw_a1": 60,
+   "raw_a9": 8,
+   "raw_a3": 14,
+   "raw_a0": 42,
+   "raw_a2": 9,
+   "raw_a7": 9,
+   "raw_t9": 2
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.96"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00024",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x a7_i5_17",
+  "target_items": {
+   "a7_i5_17": 1
+  },
+  "initial_inventory": {
+   "raw_a1": 21,
+   "raw_a9": 4,
+   "raw_a4": 14,
+   "raw_a0": 22,
+   "raw_a3": 7,
+   "raw_a2": 5,
+   "c5_ore": 2,
+   "raw_t8": 4
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.73"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00025",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x c5_i6_6_15",
+  "target_items": {
+   "c5_i6_6_15": 2
+  },
+  "initial_inventory": {
+   "c9_ore": 35,
+   "c1_ore": 18,
+   "c5_ore": 17,
+   "c3_ore": 32,
+   "c4_ore": 18,
+   "c6_ore": 4,
+   "c8_ore": 5,
+   "raw_t8": 5
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.100"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00026",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x c7_i5_17",
+  "target_items": {
+   "c7_i5_17": 3
+  },
+  "initial_inventory": {
+   "c1_ore": 7,
+   "c9_ore": 35,
+   "c3_ore": 7,
+   "c4_ore": 6,
+   "c5_ore": 32,
+   "c7_ore": 13,
+   "c6_ore": 9,
+   "raw_o2": 4,
+   "c2_ore": 2
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.76"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00027",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x c2_i6_6",
+  "target_items": {
+   "c2_i6_6": 3
+  },
+  "initial_inventory": {
+   "c5_ore": 164,
+   "c6_ore": 79,
+   "c8_ore": 43,
+   "c9_ore": 122,
+   "c7_ore": 76,
+   "c2_ore": 31,
+   "c1_ore": 9,
+   "c4_ore": 31,
+   "c3_ore": 26,
+   "c0_ore": 8,
+   "raw_t8": 5
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.104"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00028",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x a5_i5_15",
+  "target_items": {
+   "a5_i5_15": 2
+  },
+  "initial_inventory": {
+   "raw_a4": 39,
+   "raw_a0": 33,
+   "raw_a3": 5,
+   "raw_a1": 17,
+   "raw_a6": 4,
+   "m4_ore": 2,
+   "c9_ore": 3
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.81"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00029",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x c2_i6_6_22",
+  "target_items": {
+   "c2_i6_6_22": 1
+  },
+  "initial_inventory": {
+   "c3_ore": 36,
+   "c5_ore": 66,
+   "c6_ore": 21,
+   "c1_ore": 10,
+   "c9_ore": 52,
+   "c4_ore": 39,
+   "c8_ore": 27,
+   "c7_ore": 31,
+   "c0_ore": 5,
+   "raw_a7": 2
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.105"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00030",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x a7_i5",
+  "target_items": {
+   "a7_i5": 1
+  },
+  "initial_inventory": {
+   "raw_a1": 4,
+   "raw_a0": 13,
+   "raw_a9": 1,
+   "raw_a2": 12,
+   "raw_a4": 9,
+   "raw_a3": 6,
+   "raw_a6": 6,
+   "raw_a7": 6,
+   "m5_ore": 3
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.92"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00031",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x m9_i6_6",
+  "target_items": {
+   "m9_i6_6": 3
+  },
+  "initial_inventory": {
+   "m1_ore": 46,
+   "m0_ore": 33,
+   "m9_ore": 41,
+   "m3_ore": 67,
+   "m4_ore": 22,
+   "m6_ore": 12,
+   "m5_ore": 13,
+   "raw_t6": 4
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.130"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00032",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x t7_i5",
+  "target_items": {
+   "t7_i5": 1
+  },
+  "initial_inventory": {
+   "raw_t1": 17,
+   "raw_t5": 13,
+   "raw_t3": 4,
+   "raw_t0": 10,
+   "raw_t7": 10,
+   "c4_ore": 2
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.95"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00033",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x c6_i6_6_16",
+  "target_items": {
+   "c6_i6_6_16": 3
+  },
+  "initial_inventory": {
+   "c5_ore": 117,
+   "c6_ore": 71,
+   "c2_ore": 23,
+   "c9_ore": 52,
+   "c0_ore": 32,
+   "c1_ore": 16,
+   "c3_ore": 15,
+   "c4_ore": 14,
+   "c8_ore": 1,
+   "raw_t8": 5
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.143"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00034",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x a3_i5_13",
+  "target_items": {
+   "a3_i5_13": 3
+  },
+  "initial_inventory": {
+   "raw_a1": 34,
+   "raw_a4": 157,
+   "raw_a3": 25,
+   "raw_a6": 14,
+   "raw_a7": 12,
+   "raw_a0": 18,
+   "raw_a9": 8,
+   "c6_ore": 4,
+   "raw_o3": 5
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.106"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00035",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x o6_i6_6",
+  "target_items": {
+   "o6_i6_6": 3
+  },
+  "initial_inventory": {
+   "raw_o7": 217,
+   "raw_o3": 71,
+   "raw_o1": 62,
+   "raw_o2": 62,
+   "raw_o8": 47,
+   "raw_o0": 13,
+   "raw_o9": 213,
+   "raw_o5": 59,
+   "raw_o4": 30,
+   "raw_t4": 1,
+   "raw_o6": 4
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.159"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00036",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x a7_i5_17",
+  "target_items": {
+   "a7_i5_17": 2
+  },
+  "initial_inventory": {
+   "raw_a1": 46,
+   "raw_a9": 11,
+   "raw_a4": 34,
+   "raw_a0": 50,
+   "raw_a3": 12,
+   "raw_a2": 8,
+   "raw_t0": 5,
+   "m6_ore": 5
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.109"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00037",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x c1_i6_6_21",
+  "target_items": {
+   "c1_i6_6_21": 1
+  },
+  "initial_inventory": {
+   "c9_ore": 27,
+   "c6_ore": 24,
+   "c5_ore": 55,
+   "c7_ore": 9,
+   "c2_ore": 13,
+   "c3_ore": 16,
+   "c8_ore": 12,
+   "c1_ore": 18,
+   "c4_ore": 14,
+   "c0_ore": 13,
+   "raw_a5": 1,
+   "raw_o8": 4
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.175"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00038",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x m0_i5_20",
+  "target_items": {
+   "m0_i5_20": 1
+  },
+  "initial_inventory": {
+   "m7_ore": 3,
+   "m4_ore": 17,
+   "m9_ore": 3,
+   "m6_ore": 5,
+   "m0_ore": 9,
+   "m3_ore": 5,
+   "m5_ore": 2,
+   "c3_ore": 2
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.114"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00039",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x a8_i6_6_18",
+  "target_items": {
+   "a8_i6_6_18": 2
+  },
+  "initial_inventory": {
+   "raw_a1": 59,
+   "raw_a9": 17,
+   "raw_a4": 61,
+   "raw_a0": 37,
+   "raw_a3": 52,
+   "raw_a2": 32,
+   "raw_a7": 2,
+   "raw_a6": 4
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.176"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00040",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x m7_i5_17",
+  "target_items": {
+   "m7_i5_17": 3
+  },
+  "initial_inventory": {
+   "m4_ore": 18,
+   "m8_ore": 17,
+   "m7_ore": 41,
+   "m9_ore": 40,
+   "m3_ore": 47,
+   "m6_ore": 8,
+   "raw_o1": 4,
+   "raw_o5": 2
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.129"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00041",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x m0_i6_6_10",
+  "target_items": {
+   "m0_i6_6_10": 3
+  },
+  "initial_inventory": {
+   "m7_ore": 7,
+   "m3_ore": 36,
+   "m0_ore": 44,
+   "m1_ore": 33,
+   "m9_ore": 18,
+   "m6_ore": 25,
+   "m8_ore": 4,
+   "m5_ore": 9,
+   "raw_a0": 3
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.180"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00042",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x o0_i5",
+  "target_items": {
+   "o0_i5": 2
+  },
+  "initial_inventory": {
+   "raw_o3": 24,
+   "raw_o2": 3,
+   "raw_o7": 31,
+   "raw_o9": 26,
+   "raw_o5": 6,
+   "raw_a0": 3,
+   "raw_t3": 5
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.184"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00043",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x c4_i6_6",
+  "target_items": {
+   "c4_i6_6": 1
+  },
+  "initial_inventory": {
+   "c1_ore": 18,
+   "c9_ore": 67,
+   "c3_ore": 29,
+   "c4_ore": 20,
+   "c6_ore": 30,
+   "c8_ore": 8,
+   "c5_ore": 82,
+   "c7_ore": 18,
+   "c2_ore": 9,
+   "c0_ore": 11,
+   "m1_ore": 3
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.189"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00044",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x a1_i5",
+  "target_items": {
+   "a1_i5": 1
+  },
+  "initial_inventory": {
+   "raw_a1": 33,
+   "raw_a9": 7,
+   "raw_a4": 15,
+   "raw_a0": 13,
+   "raw_a3": 7,
+   "raw_a2": 7,
+   "raw_t7": 2
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.193"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00045",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x a5_i6_6",
+  "target_items": {
+   "a5_i6_6": 1
+  },
+  "initial_inventory": {
+   "raw_a6": 5,
+   "raw_a1": 23,
+   "raw_a4": 35,
+   "raw_a3": 9,
+   "raw_a0": 28,
+   "raw_a9": 2,
+   "raw_a2": 3,
+   "raw_a7": 3,
+   "m9_ore": 1
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.192"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00046",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x a5_i5",
+  "target_items": {
+   "a5_i5": 2
+  },
+  "initial_inventory": {
+   "raw_a4": 29,
+   "raw_a0": 43,
+   "raw_a1": 17,
+   "raw_a9": 9,
+   "raw_a3": 5,
+   "raw_a7": 5,
+   "raw_t8": 3
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.199"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00047",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x t5_i6_6_15",
+  "target_items": {
+   "t5_i6_6_15": 1
+  },
+  "initial_inventory": {
+   "raw_t8": 5,
+   "raw_t9": 11,
+   "raw_t6": 18,
+   "raw_t5": 56,
+   "raw_t3": 11,
+   "raw_t4": 3,
+   "raw_t0": 17,
+   "raw_t7": 17,
+   "raw_t1": 16,
+   "c4_ore": 2
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.209"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00048",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x m8_i5_18",
+  "target_items": {
+   "m8_i5_18": 2
+  },
+  "initial_inventory": {
+   "m0_ore": 41,
+   "m4_ore": 39,
+   "m5_ore": 22,
+   "m9_ore": 20,
+   "m3_ore": 19,
+   "m7_ore": 27,
+   "m6_ore": 12,
+   "m8_ore": 3,
+   "c0_ore": 2,
+   "c4_ore": 5,
+   "c3_ore": 3
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.201"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00049",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x c0_i6_6",
+  "target_items": {
+   "c0_i6_6": 2
+  },
+  "initial_inventory": {
+   "c8_ore": 9,
+   "c9_ore": 16,
+   "c6_ore": 6,
+   "c0_ore": 4,
+   "c1_ore": 6,
+   "c3_ore": 4,
+   "c4_ore": 5,
+   "c5_ore": 9,
+   "raw_o7": 3,
+   "raw_t7": 1,
+   "raw_a1": 4
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.220"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00050",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x m2_i5_12",
+  "target_items": {
+   "m2_i5_12": 2
+  },
+  "initial_inventory": {
+   "m1_ore": 12,
+   "m0_ore": 14,
+   "m9_ore": 6,
+   "m3_ore": 8,
+   "m6_ore": 11,
+   "m8_ore": 2,
+   "m5_ore": 4,
+   "raw_o4": 5
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.203"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00051",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x m5_i6_6",
+  "target_items": {
+   "m5_i6_6": 3
+  },
+  "initial_inventory": {
+   "m1_ore": 123,
+   "m0_ore": 85,
+   "m9_ore": 28,
+   "m3_ore": 95,
+   "m6_ore": 33,
+   "m8_ore": 4,
+   "m5_ore": 24,
+   "m4_ore": 54,
+   "m7_ore": 14,
+   "raw_a3": 2,
+   "raw_t1": 5
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.221"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00052",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x a1_i5",
+  "target_items": {
+   "a1_i5": 2
+  },
+  "initial_inventory": {
+   "raw_a1": 45,
+   "raw_a9": 17,
+   "raw_a4": 29,
+   "raw_a0": 37,
+   "raw_a3": 15,
+   "raw_a2": 16,
+   "raw_o9": 2,
+   "raw_t8": 4,
+   "c2_ore": 5
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.216"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00053",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x c6_i6_6",
+  "target_items": {
+   "c6_i6_6": 2
+  },
+  "initial_inventory": {
+   "c1_ore": 4,
+   "c9_ore": 62,
+   "c3_ore": 22,
+   "c4_ore": 15,
+   "c5_ore": 74,
+   "c6_ore": 21,
+   "c8_ore": 5,
+   "c7_ore": 48,
+   "c2_ore": 6,
+   "c0_ore": 9,
+   "m0_ore": 1,
+   "m7_ore": 4
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.232"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00054",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x c5_i5_15",
+  "target_items": {
+   "c5_i5_15": 1
+  },
+  "initial_inventory": {
+   "c5_ore": 44,
+   "c0_ore": 12,
+   "c1_ore": 6,
+   "c9_ore": 23,
+   "c3_ore": 10,
+   "c4_ore": 9,
+   "c2_ore": 5,
+   "c6_ore": 16,
+   "c8_ore": 5,
+   "c7_ore": 11,
+   "raw_o7": 1
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.218"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00055",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x a4_i6_6_14",
+  "target_items": {
+   "a4_i6_6_14": 1
+  },
+  "initial_inventory": {
+   "raw_a1": 41,
+   "raw_a4": 99,
+   "raw_a3": 22,
+   "raw_a0": 18,
+   "raw_a9": 7,
+   "raw_a6": 2,
+   "c2_ore": 1,
+   "m4_ore": 1,
+   "c1_ore": 2
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.234"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00056",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x o5_i5_15",
+  "target_items": {
+   "o5_i5_15": 1
+  },
+  "initial_inventory": {
+   "raw_o5": 3,
+   "raw_o2": 11,
+   "raw_o4": 3,
+   "raw_o8": 2,
+   "raw_o7": 2,
+   "m0_ore": 5,
+   "raw_t4": 2,
+   "raw_a6": 2
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.223"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00057",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x m4_i6_6_14",
+  "target_items": {
+   "m4_i6_6_14": 1
+  },
+  "initial_inventory": {
+   "m0_ore": 38,
+   "m4_ore": 20,
+   "m5_ore": 15,
+   "m9_ore": 13,
+   "m3_ore": 11,
+   "m7_ore": 13,
+   "m6_ore": 13,
+   "m8_ore": 2,
+   "m1_ore": 7,
+   "raw_o9": 2
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.248"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00058",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x c9_i5_19",
+  "target_items": {
+   "c9_i5_19": 2
+  },
+  "initial_inventory": {
+   "c2_ore": 4,
+   "c5_ore": 30,
+   "c7_ore": 35,
+   "c8_ore": 12,
+   "c9_ore": 20,
+   "c1_ore": 4,
+   "c4_ore": 12,
+   "c3_ore": 5,
+   "c6_ore": 3,
+   "raw_a6": 2
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.224"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00059",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x a0_i6_6_10",
+  "target_items": {
+   "a0_i6_6_10": 3
+  },
+  "initial_inventory": {
+   "raw_a1": 125,
+   "raw_a0": 136,
+   "raw_a9": 41,
+   "raw_a2": 12,
+   "raw_a4": 232,
+   "raw_a3": 65,
+   "raw_a6": 8,
+   "raw_t9": 4
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.258"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00060",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x o8_i5_18",
+  "target_items": {
+   "o8_i5_18": 1
+  },
+  "initial_inventory": {
+   "raw_o7": 41,
+   "raw_o3": 13,
+   "raw_o4": 12,
+   "raw_o2": 24,
+   "raw_o5": 14,
+   "raw_o8": 5,
+   "raw_o1": 3,
+   "c0_ore": 3,
+   "raw_t8": 2,
+   "c5_ore": 2
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.229"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00061",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x c6_i6_6_16",
+  "target_items": {
+   "c6_i6_6_16": 1
+  },
+  "initial_inventory": {
+   "c5_ore": 32,
+   "c6_ore": 22,
+   "c2_ore": 6,
+   "c9_ore": 17,
+   "c0_ore": 9,
+   "c1_ore": 6,
+   "c3_ore": 7,
+   "c4_ore": 5,
+   "m1_ore": 2,
+   "m0_ore": 2
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.264"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00062",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x t0_i5",
+  "target_items": {
+   "t0_i5": 1
+  },
+  "initial_inventory": {
+   "raw_t8": 18,
+   "raw_t0": 18,
+   "raw_t1": 8,
+   "raw_t9": 14,
+   "raw_t6": 12,
+   "raw_t5": 20,
+   "raw_t3": 6,
+   "raw_t4": 2,
+   "raw_t7": 5,
+   "raw_a8": 1,
+   "raw_a4": 2
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.251"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00063",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x c0_i6_6",
+  "target_items": {
+   "c0_i6_6": 3
+  },
+  "initial_inventory": {
+   "c8_ore": 13,
+   "c9_ore": 26,
+   "c6_ore": 8,
+   "c0_ore": 6,
+   "c1_ore": 9,
+   "c3_ore": 8,
+   "c4_ore": 6,
+   "c5_ore": 18,
+   "m1_ore": 3
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.267"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00064",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x m0_i5",
+  "target_items": {
+   "m0_i5": 1
+  },
+  "initial_inventory": {
+   "m7_ore": 9,
+   "m6_ore": 3,
+   "m3_ore": 10,
+   "m0_ore": 10,
+   "m9_ore": 6,
+   "m8_ore": 5,
+   "m4_ore": 2,
+   "m5_ore": 4,
+   "m1_ore": 3,
+   "c1_ore": 3
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.259"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00065",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x m5_i6_6_15",
+  "target_items": {
+   "m5_i6_6_15": 2
+  },
+  "initial_inventory": {
+   "m9_ore": 78,
+   "m3_ore": 36,
+   "m0_ore": 23,
+   "m8_ore": 21,
+   "m1_ore": 32,
+   "m4_ore": 40,
+   "m7_ore": 22,
+   "m6_ore": 2,
+   "m5_ore": 6,
+   "raw_o8": 4,
+   "c8_ore": 3,
+   "raw_o2": 5
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.273"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00066",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x a2_i5_12",
+  "target_items": {
+   "a2_i5_12": 1
+  },
+  "initial_inventory": {
+   "raw_a3": 3,
+   "raw_a4": 3,
+   "raw_a9": 2,
+   "raw_a1": 27,
+   "raw_a0": 6,
+   "raw_a2": 2,
+   "raw_a7": 3,
+   "c5_ore": 4,
+   "m9_ore": 3,
+   "m2_ore": 2
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.282"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00067",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x m8_i6_6",
+  "target_items": {
+   "m8_i6_6": 1
+  },
+  "initial_inventory": {
+   "m0_ore": 29,
+   "m4_ore": 23,
+   "m5_ore": 3,
+   "m9_ore": 32,
+   "m3_ore": 56,
+   "m1_ore": 38,
+   "m7_ore": 12,
+   "m6_ore": 2,
+   "m2_ore": 1
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.277"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00068",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x m1_i5_21",
+  "target_items": {
+   "m1_i5_21": 2
+  },
+  "initial_inventory": {
+   "m3_ore": 36,
+   "m4_ore": 32,
+   "m9_ore": 8,
+   "m0_ore": 12,
+   "m5_ore": 11,
+   "m6_ore": 13,
+   "m7_ore": 17,
+   "raw_a3": 1,
+   "raw_t3": 1
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.294"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00069",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x o0_i6_6_20",
+  "target_items": {
+   "o0_i6_6_20": 2
+  },
+  "initial_inventory": {
+   "raw_o7": 173,
+   "raw_o3": 62,
+   "raw_o4": 48,
+   "raw_o2": 65,
+   "raw_o5": 81,
+   "raw_o8": 17,
+   "raw_o1": 6,
+   "raw_o9": 112,
+   "raw_o0": 6,
+   "m0_ore": 5
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.283"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00070",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x c2_i5_22",
+  "target_items": {
+   "c2_i5_22": 3
+  },
+  "initial_inventory": {
+   "c2_ore": 6,
+   "c5_ore": 30,
+   "c6_ore": 18,
+   "c9_ore": 38,
+   "c1_ore": 16,
+   "c3_ore": 42,
+   "c4_ore": 27,
+   "c8_ore": 8,
+   "m9_ore": 5,
+   "raw_a5": 3,
+   "m8_ore": 3
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.305"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00071",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x o9_i6_6",
+  "target_items": {
+   "o9_i6_6": 2
+  },
+  "initial_inventory": {
+   "raw_o9": 129,
+   "raw_o3": 29,
+   "raw_o7": 47,
+   "raw_o5": 14,
+   "raw_o0": 6,
+   "raw_o1": 42,
+   "raw_o4": 25,
+   "raw_o8": 18,
+   "raw_o2": 28,
+   "c0_ore": 5,
+   "m3_ore": 1
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.286"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00072",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x a8_i5",
+  "target_items": {
+   "a8_i5": 3
+  },
+  "initial_inventory": {
+   "raw_a4": 84,
+   "raw_a3": 31,
+   "raw_a0": 35,
+   "raw_a9": 17,
+   "raw_a1": 37,
+   "raw_o6": 3,
+   "raw_o5": 3,
+   "c4_ore": 2
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.320"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00073",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x m6_i6_6",
+  "target_items": {
+   "m6_i6_6": 1
+  },
+  "initial_inventory": {
+   "m9_ore": 49,
+   "m1_ore": 19,
+   "m0_ore": 20,
+   "m3_ore": 42,
+   "m4_ore": 16,
+   "m8_ore": 6,
+   "m6_ore": 6,
+   "m5_ore": 4,
+   "c0_ore": 3,
+   "raw_t6": 1
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.307"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00074",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x t3_i5_23",
+  "target_items": {
+   "t3_i5_23": 1
+  },
+  "initial_inventory": {
+   "raw_t9": 27,
+   "raw_t8": 2,
+   "raw_t3": 11,
+   "raw_t4": 6,
+   "raw_t6": 12,
+   "raw_t0": 26,
+   "raw_t5": 25,
+   "raw_t1": 10,
+   "c0_ore": 3
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.326"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00075",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x t3_i6_6_13",
+  "target_items": {
+   "t3_i6_6_13": 2
+  },
+  "initial_inventory": {
+   "raw_t1": 136,
+   "raw_t3": 80,
+   "raw_t0": 187,
+   "raw_t4": 89,
+   "raw_t8": 110,
+   "raw_t6": 10,
+   "raw_t5": 42,
+   "raw_t9": 60,
+   "raw_t7": 23,
+   "c4_ore": 2,
+   "c6_ore": 3
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.315"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00076",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x c5_i5_15",
+  "target_items": {
+   "c5_i5_15": 2
+  },
+  "initial_inventory": {
+   "c5_ore": 72,
+   "c0_ore": 20,
+   "c1_ore": 8,
+   "c9_ore": 54,
+   "c3_ore": 20,
+   "c4_ore": 16,
+   "c2_ore": 11,
+   "c6_ore": 25,
+   "c8_ore": 9,
+   "c7_ore": 17,
+   "raw_o2": 1
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.330"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00077",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x c5_i6_6",
+  "target_items": {
+   "c5_i6_6": 3
+  },
+  "initial_inventory": {
+   "c1_ore": 31,
+   "c4_ore": 64,
+   "c5_ore": 106,
+   "c6_ore": 19,
+   "c9_ore": 91,
+   "c3_ore": 42,
+   "c7_ore": 62,
+   "c2_ore": 12,
+   "c8_ore": 64,
+   "c0_ore": 12
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.318"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00078",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x a0_i5",
+  "target_items": {
+   "a0_i5": 3
+  },
+  "initial_inventory": {
+   "raw_a6": 14,
+   "raw_a1": 16,
+   "raw_a4": 117,
+   "raw_a3": 31,
+   "raw_a0": 58,
+   "raw_a9": 9,
+   "m6_ore": 2,
+   "raw_o3": 5
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.336"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00079",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x o4_i6_6",
+  "target_items": {
+   "o4_i6_6": 2
+  },
+  "initial_inventory": {
+   "raw_o7": 57,
+   "raw_o1": 25,
+   "raw_o2": 59,
+   "raw_o3": 23,
+   "raw_o4": 20,
+   "raw_o5": 16,
+   "raw_o9": 38,
+   "raw_o8": 11,
+   "m3_ore": 4,
+   "raw_t2": 1
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.337"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00080",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x m6_i5",
+  "target_items": {
+   "m6_i5": 2
+  },
+  "initial_inventory": {
+   "m7_ore": 4,
+   "m3_ore": 13,
+   "m0_ore": 12,
+   "m1_ore": 8,
+   "m9_ore": 6,
+   "m6_ore": 8,
+   "m2_ore": 3,
+   "raw_t3": 2
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.344"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00081",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x o7_i6_6",
+  "target_items": {
+   "o7_i6_6": 3
+  },
+  "initial_inventory": {
+   "raw_o9": 76,
+   "raw_o3": 37,
+   "raw_o7": 52,
+   "raw_o5": 37,
+   "raw_t6": 2
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.341"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00082",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x o1_i5_11",
+  "target_items": {
+   "o1_i5_11": 3
+  },
+  "initial_inventory": {
+   "raw_o9": 114,
+   "raw_o7": 72,
+   "raw_o5": 31,
+   "raw_o3": 45,
+   "raw_o8": 15,
+   "raw_o0": 6,
+   "c4_ore": 1,
+   "raw_a3": 1
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.348"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00083",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x c9_i6_6_19",
+  "target_items": {
+   "c9_i6_6_19": 1
+  },
+  "initial_inventory": {
+   "c1_ore": 3,
+   "c9_ore": 15,
+   "c3_ore": 10,
+   "c4_ore": 8,
+   "c5_ore": 16,
+   "c8_ore": 10,
+   "c6_ore": 18,
+   "c7_ore": 12,
+   "c2_ore": 5,
+   "c0_ore": 3,
+   "raw_a6": 1
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.342"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00084",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x t1_i5",
+  "target_items": {
+   "t1_i5": 3
+  },
+  "initial_inventory": {
+   "raw_t1": 36,
+   "raw_t3": 20,
+   "raw_t4": 33,
+   "raw_t9": 47,
+   "raw_t0": 39,
+   "raw_t5": 35,
+   "raw_t7": 33,
+   "m4_ore": 4,
+   "m7_ore": 3
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.358"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00085",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x a8_i6_6",
+  "target_items": {
+   "a8_i6_6": 3
+  },
+  "initial_inventory": {
+   "raw_a3": 26,
+   "raw_a2": 16,
+   "raw_a1": 167,
+   "raw_a0": 84,
+   "raw_a7": 28,
+   "raw_a4": 56,
+   "raw_a6": 17,
+   "raw_a9": 8
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.343"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00086",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x c0_i5_10",
+  "target_items": {
+   "c0_i5_10": 3
+  },
+  "initial_inventory": {
+   "c5_ore": 141,
+   "c0_ore": 36,
+   "c1_ore": 20,
+   "c9_ore": 84,
+   "c3_ore": 12,
+   "c4_ore": 16,
+   "c2_ore": 12,
+   "c6_ore": 71,
+   "c7_ore": 6,
+   "c8_ore": 9,
+   "raw_o8": 3,
+   "raw_a9": 1
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.363"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00087",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x t8_i6_6",
+  "target_items": {
+   "t8_i6_6": 3
+  },
+  "initial_inventory": {
+   "raw_t4": 37,
+   "raw_t1": 52,
+   "raw_t3": 8,
+   "raw_t6": 33,
+   "raw_t9": 56,
+   "raw_t5": 48,
+   "raw_t0": 90,
+   "raw_t7": 16,
+   "raw_t8": 166,
+   "raw_a2": 5
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.356"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00088",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x m8_i5",
+  "target_items": {
+   "m8_i5": 1
+  },
+  "initial_inventory": {
+   "m9_ore": 7,
+   "m1_ore": 15,
+   "m0_ore": 9,
+   "m3_ore": 13,
+   "m4_ore": 5,
+   "c0_ore": 1,
+   "raw_o5": 3
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.367"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00089",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x a0_i6_6",
+  "target_items": {
+   "a0_i6_6": 1
+  },
+  "initial_inventory": {
+   "raw_a3": 16,
+   "raw_a4": 44,
+   "raw_a9": 13,
+   "raw_a1": 40,
+   "raw_a0": 12,
+   "raw_a2": 3,
+   "raw_a7": 2,
+   "c7_ore": 5
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.371"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00090",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x m6_i5_16",
+  "target_items": {
+   "m6_i5_16": 2
+  },
+  "initial_inventory": {
+   "m4_ore": 16,
+   "m7_ore": 52,
+   "m9_ore": 9,
+   "m6_ore": 18,
+   "m0_ore": 8,
+   "m8_ore": 3,
+   "m5_ore": 4,
+   "m1_ore": 5,
+   "m3_ore": 5
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.376"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00091",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x m2_i6_6",
+  "target_items": {
+   "m2_i6_6": 2
+  },
+  "initial_inventory": {
+   "m7_ore": 28,
+   "m3_ore": 21,
+   "m0_ore": 40,
+   "m9_ore": 24,
+   "m1_ore": 6,
+   "m5_ore": 9,
+   "m4_ore": 41,
+   "m6_ore": 25,
+   "c6_ore": 3,
+   "raw_a5": 2,
+   "raw_a3": 5
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.391"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00092",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x o2_i5_22",
+  "target_items": {
+   "o2_i5_22": 3
+  },
+  "initial_inventory": {
+   "raw_o1": 6,
+   "raw_o2": 24,
+   "raw_o4": 9,
+   "raw_o7": 28,
+   "raw_o3": 14,
+   "raw_o5": 25,
+   "raw_o9": 54,
+   "raw_o8": 15,
+   "c9_ore": 2,
+   "raw_a5": 2,
+   "m6_ore": 4
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.400"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00093",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x t7_i6_6_17",
+  "target_items": {
+   "t7_i6_6_17": 3
+  },
+  "initial_inventory": {
+   "raw_t8": 87,
+   "raw_t0": 185,
+   "raw_t3": 158,
+   "raw_t9": 118,
+   "raw_t1": 212,
+   "raw_t6": 9,
+   "raw_t4": 118,
+   "raw_t7": 38,
+   "raw_t5": 40,
+   "m5_ore": 2,
+   "raw_o1": 4
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.398"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00094",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x t5_i5_15",
+  "target_items": {
+   "t5_i5_15": 3
+  },
+  "initial_inventory": {
+   "raw_t1": 4,
+   "raw_t7": 14,
+   "raw_t0": 18,
+   "raw_t8": 3,
+   "raw_t9": 4,
+   "raw_t3": 7,
+   "raw_t6": 26,
+   "raw_t4": 16,
+   "raw_t5": 36,
+   "raw_a6": 1,
+   "c2_ore": 2
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.401"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00095",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x c6_i6_6",
+  "target_items": {
+   "c6_i6_6": 1
+  },
+  "initial_inventory": {
+   "c1_ore": 2,
+   "c9_ore": 41,
+   "c3_ore": 15,
+   "c4_ore": 7,
+   "c5_ore": 41,
+   "c6_ore": 10,
+   "c8_ore": 3,
+   "c7_ore": 33,
+   "c2_ore": 4,
+   "c0_ore": 4,
+   "raw_t6": 3,
+   "raw_o5": 4
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.406"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00096",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x a9_i5",
+  "target_items": {
+   "a9_i5": 2
+  },
+  "initial_inventory": {
+   "raw_a1": 28,
+   "raw_a4": 124,
+   "raw_a3": 30,
+   "raw_a0": 11,
+   "raw_a9": 10,
+   "c0_ore": 3
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.403"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00097",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x c4_i6_6_14",
+  "target_items": {
+   "c4_i6_6_14": 3
+  },
+  "initial_inventory": {
+   "c3_ore": 45,
+   "c2_ore": 11,
+   "c9_ore": 43,
+   "c0_ore": 6,
+   "c5_ore": 50,
+   "c8_ore": 24,
+   "c4_ore": 27,
+   "c6_ore": 35,
+   "c7_ore": 24
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.421"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00098",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x m1_i5_21",
+  "target_items": {
+   "m1_i5_21": 1
+  },
+  "initial_inventory": {
+   "m3_ore": 21,
+   "m4_ore": 15,
+   "m9_ore": 6,
+   "m0_ore": 5,
+   "m5_ore": 5,
+   "m6_ore": 7,
+   "m7_ore": 7,
+   "raw_o7": 5,
+   "raw_a1": 5
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.428"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00099",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x m1_i6_6_11",
+  "target_items": {
+   "m1_i6_6_11": 2
+  },
+  "initial_inventory": {
+   "m3_ore": 24,
+   "m9_ore": 19,
+   "m8_ore": 9,
+   "m4_ore": 7,
+   "m7_ore": 26,
+   "m6_ore": 12,
+   "m1_ore": 8,
+   "m0_ore": 4,
+   "m5_ore": 1,
+   "raw_o3": 5
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.435"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00100",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x m0_i5_10",
+  "target_items": {
+   "m0_i5_10": 3
+  },
+  "initial_inventory": {
+   "m3_ore": 15,
+   "m9_ore": 19,
+   "m8_ore": 22,
+   "m7_ore": 27,
+   "m6_ore": 7,
+   "m0_ore": 14,
+   "c7_ore": 1
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.437"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00101",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x m2_i6_6_22",
+  "target_items": {
+   "m2_i6_6_22": 2
+  },
+  "initial_inventory": {
+   "m4_ore": 14,
+   "m7_ore": 60,
+   "m9_ore": 20,
+   "m6_ore": 19,
+   "m0_ore": 11,
+   "m8_ore": 14,
+   "m5_ore": 6,
+   "m3_ore": 9,
+   "m2_ore": 4,
+   "c7_ore": 4,
+   "raw_a1": 2
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.446"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00102",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x t5_i5",
+  "target_items": {
+   "t5_i5": 3
+  },
+  "initial_inventory": {
+   "raw_t4": 33,
+   "raw_t9": 8,
+   "raw_t0": 50,
+   "raw_t5": 17,
+   "raw_t3": 35,
+   "raw_t1": 22,
+   "raw_t7": 12,
+   "raw_t8": 24,
+   "m2_ore": 1
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.461"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00103",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x o1_i6_6",
+  "target_items": {
+   "o1_i6_6": 1
+  },
+  "initial_inventory": {
+   "raw_o9": 44,
+   "raw_o1": 9,
+   "raw_o2": 25,
+   "raw_o8": 24,
+   "raw_o7": 69,
+   "raw_o3": 26,
+   "raw_o0": 4,
+   "raw_o4": 15,
+   "raw_o5": 10,
+   "m3_ore": 3,
+   "m9_ore": 2
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.452"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00104",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x o9_i5_19",
+  "target_items": {
+   "o9_i5_19": 3
+  },
+  "initial_inventory": {
+   "raw_o7": 88,
+   "raw_o3": 33,
+   "raw_o1": 17,
+   "raw_o2": 16,
+   "raw_o8": 16,
+   "raw_o0": 6
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.467"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00105",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x a8_i6_6_18",
+  "target_items": {
+   "a8_i6_6_18": 1
+  },
+  "initial_inventory": {
+   "raw_a1": 31,
+   "raw_a9": 9,
+   "raw_a4": 31,
+   "raw_a0": 18,
+   "raw_a3": 19,
+   "raw_a2": 14,
+   "raw_a7": 2,
+   "raw_a6": 1,
+   "raw_t2": 4
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.458"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00106",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x a3_i5",
+  "target_items": {
+   "a3_i5": 3
+  },
+  "initial_inventory": {
+   "raw_a6": 9,
+   "raw_a1": 7,
+   "raw_a2": 12,
+   "raw_a4": 25,
+   "raw_a3": 21,
+   "raw_a0": 4,
+   "raw_a9": 4,
+   "raw_o6": 1,
+   "c4_ore": 2,
+   "m8_ore": 3
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.468"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00107",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x a4_i6_6",
+  "target_items": {
+   "a4_i6_6": 3
+  },
+  "initial_inventory": {
+   "raw_a4": 67,
+   "raw_a0": 61,
+   "raw_a1": 117,
+   "raw_a2": 49,
+   "raw_a7": 13,
+   "raw_a3": 35,
+   "raw_a6": 9,
+   "raw_a9": 3,
+   "raw_o8": 3,
+   "c3_ore": 3,
+   "m9_ore": 4
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.472"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00108",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x c2_i5_12",
+  "target_items": {
+   "c2_i5_12": 1
+  },
+  "initial_inventory": {
+   "c9_ore": 3,
+   "c6_ore": 5,
+   "c5_ore": 4,
+   "c7_ore": 4,
+   "c2_ore": 4,
+   "c3_ore": 3,
+   "raw_t2": 4,
+   "raw_a2": 1
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.492"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00109",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x c2_i6_6_12",
+  "target_items": {
+   "c2_i6_6_12": 3
+  },
+  "initial_inventory": {
+   "c5_ore": 165,
+   "c0_ore": 33,
+   "c1_ore": 54,
+   "c9_ore": 110,
+   "c3_ore": 59,
+   "c4_ore": 61,
+   "c2_ore": 24,
+   "c6_ore": 97,
+   "c7_ore": 24,
+   "c8_ore": 29
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.474"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00110",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x o1_i5_21",
+  "target_items": {
+   "o1_i5_21": 2
+  },
+  "initial_inventory": {
+   "raw_o9": 23,
+   "raw_o1": 11,
+   "raw_o2": 8,
+   "raw_o8": 10,
+   "raw_o7": 55,
+   "raw_o3": 30,
+   "raw_o0": 5,
+   "raw_o5": 10,
+   "raw_t3": 1,
+   "raw_t2": 2
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.505"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00111",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x m0_i6_6_10",
+  "target_items": {
+   "m0_i6_6_10": 1
+  },
+  "initial_inventory": {
+   "m7_ore": 2,
+   "m3_ore": 12,
+   "m0_ore": 11,
+   "m1_ore": 11,
+   "m9_ore": 6,
+   "m6_ore": 12,
+   "m8_ore": 1,
+   "m5_ore": 2,
+   "raw_a3": 1
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.480"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00112",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x t1_i5",
+  "target_items": {
+   "t1_i5": 1
+  },
+  "initial_inventory": {
+   "raw_t1": 11,
+   "raw_t3": 7,
+   "raw_t4": 12,
+   "raw_t9": 17,
+   "raw_t0": 12,
+   "raw_t5": 8,
+   "raw_t7": 9,
+   "raw_o0": 3,
+   "c3_ore": 4
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.507"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00113",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x m0_i6_6_10",
+  "target_items": {
+   "m0_i6_6_10": 2
+  },
+  "initial_inventory": {
+   "m7_ore": 4,
+   "m3_ore": 21,
+   "m0_ore": 25,
+   "m1_ore": 18,
+   "m9_ore": 9,
+   "m6_ore": 18,
+   "m8_ore": 3,
+   "m5_ore": 5,
+   "raw_t9": 2,
+   "raw_a0": 3,
+   "raw_a9": 5
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.491"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00114",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x m9_i5_19",
+  "target_items": {
+   "m9_i5_19": 1
+  },
+  "initial_inventory": {
+   "m3_ore": 18,
+   "m4_ore": 14,
+   "m0_ore": 6,
+   "m9_ore": 25,
+   "m8_ore": 6,
+   "m1_ore": 15,
+   "raw_a2": 5
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.529"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00115",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x c1_i6_6_21",
+  "target_items": {
+   "c1_i6_6_21": 2
+  },
+  "initial_inventory": {
+   "c9_ore": 68,
+   "c6_ore": 45,
+   "c5_ore": 89,
+   "c7_ore": 16,
+   "c2_ore": 24,
+   "c3_ore": 34,
+   "c8_ore": 20,
+   "c1_ore": 33,
+   "c4_ore": 32,
+   "c0_ore": 26,
+   "raw_o9": 1,
+   "raw_t8": 5,
+   "raw_a2": 5
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.495"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00116",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x a3_i5_13",
+  "target_items": {
+   "a3_i5_13": 1
+  },
+  "initial_inventory": {
+   "raw_a1": 12,
+   "raw_a4": 56,
+   "raw_a3": 6,
+   "raw_a6": 5,
+   "raw_a7": 6,
+   "raw_a0": 5,
+   "raw_a9": 2,
+   "raw_t5": 2,
+   "raw_o1": 5
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.530"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00117",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x c1_i6_6_21",
+  "target_items": {
+   "c1_i6_6_21": 3
+  },
+  "initial_inventory": {
+   "c9_ore": 92,
+   "c6_ore": 73,
+   "c5_ore": 147,
+   "c7_ore": 21,
+   "c2_ore": 31,
+   "c3_ore": 47,
+   "c8_ore": 33,
+   "c1_ore": 39,
+   "c4_ore": 44,
+   "c0_ore": 37,
+   "raw_a9": 2
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.500"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00118",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x c7_i5",
+  "target_items": {
+   "c7_i5": 2
+  },
+  "initial_inventory": {
+   "c1_ore": 8,
+   "c9_ore": 11,
+   "c3_ore": 12,
+   "c4_ore": 17,
+   "c8_ore": 24,
+   "c7_ore": 5,
+   "c5_ore": 19,
+   "c0_ore": 11,
+   "raw_a5": 3,
+   "m4_ore": 4,
+   "raw_t7": 5
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.538"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00119",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x m6_i6_6",
+  "target_items": {
+   "m6_i6_6": 2
+  },
+  "initial_inventory": {
+   "m9_ore": 107,
+   "m1_ore": 38,
+   "m0_ore": 32,
+   "m3_ore": 68,
+   "m4_ore": 33,
+   "m8_ore": 14,
+   "m6_ore": 9,
+   "m5_ore": 12,
+   "raw_a2": 1,
+   "c6_ore": 5
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.510"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00120",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x m8_i5",
+  "target_items": {
+   "m8_i5": 3
+  },
+  "initial_inventory": {
+   "m9_ore": 20,
+   "m1_ore": 36,
+   "m0_ore": 25,
+   "m3_ore": 45,
+   "m4_ore": 16,
+   "m7_ore": 1,
+   "raw_o7": 2
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.546"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00121",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x m2_i6_6_12",
+  "target_items": {
+   "m2_i6_6_12": 3
+  },
+  "initial_inventory": {
+   "m3_ore": 43,
+   "m0_ore": 98,
+   "m7_ore": 39,
+   "m6_ore": 32,
+   "m8_ore": 8,
+   "m5_ore": 25,
+   "m1_ore": 45,
+   "m4_ore": 76,
+   "m9_ore": 17,
+   "raw_a4": 4
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.512"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00122",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x m9_i5",
+  "target_items": {
+   "m9_i5": 2
+  },
+  "initial_inventory": {
+   "m1_ore": 42,
+   "m3_ore": 24,
+   "m4_ore": 2,
+   "m6_ore": 6,
+   "raw_o4": 3,
+   "raw_o2": 1
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.558"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00123",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x t9_i6_6",
+  "target_items": {
+   "t9_i6_6": 1
+  },
+  "initial_inventory": {
+   "raw_t3": 18,
+   "raw_t0": 66,
+   "raw_t4": 18,
+   "raw_t8": 72,
+   "raw_t9": 42,
+   "raw_t6": 16,
+   "raw_t5": 52,
+   "raw_t7": 18,
+   "raw_t1": 54,
+   "raw_o8": 5
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.515"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00124",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x o2_i5_22",
+  "target_items": {
+   "o2_i5_22": 2
+  },
+  "initial_inventory": {
+   "raw_o1": 4,
+   "raw_o2": 24,
+   "raw_o4": 4,
+   "raw_o7": 24,
+   "raw_o3": 12,
+   "raw_o5": 16,
+   "raw_o9": 37,
+   "raw_o8": 10,
+   "raw_a8": 2
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.563"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00125",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x m3_i6_6_13",
+  "target_items": {
+   "m3_i6_6_13": 1
+  },
+  "initial_inventory": {
+   "m3_ore": 44,
+   "m4_ore": 37,
+   "m9_ore": 10,
+   "m0_ore": 8,
+   "m5_ore": 10,
+   "m6_ore": 18,
+   "m7_ore": 17,
+   "m1_ore": 40,
+   "c5_ore": 1,
+   "raw_t9": 4,
+   "raw_t5": 5
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.518"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00126",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x t9_i5",
+  "target_items": {
+   "t9_i5": 1
+  },
+  "initial_inventory": {
+   "raw_t8": 4,
+   "raw_t9": 13,
+   "raw_t6": 15,
+   "raw_t5": 32,
+   "raw_t3": 5,
+   "raw_t4": 3,
+   "raw_t0": 4,
+   "raw_t7": 5,
+   "raw_t1": 3,
+   "m5_ore": 3,
+   "c1_ore": 5
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.565"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00127",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x a9_i6_6_19",
+  "target_items": {
+   "a9_i6_6_19": 1
+  },
+  "initial_inventory": {
+   "raw_a1": 88,
+   "raw_a4": 28,
+   "raw_a9": 23,
+   "raw_a3": 16,
+   "raw_a0": 17,
+   "raw_a7": 4,
+   "raw_a2": 3,
+   "raw_o1": 4,
+   "raw_o8": 5
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.532"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00128",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x m0_i5",
+  "target_items": {
+   "m0_i5": 2
+  },
+  "initial_inventory": {
+   "m7_ore": 17,
+   "m6_ore": 4,
+   "m3_ore": 18,
+   "m0_ore": 21,
+   "m9_ore": 11,
+   "m8_ore": 10,
+   "m4_ore": 3,
+   "m5_ore": 12,
+   "m1_ore": 4,
+   "c0_ore": 3,
+   "c5_ore": 3
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.571"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00129",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x o6_i6_6_16",
+  "target_items": {
+   "o6_i6_6_16": 3
+  },
+  "initial_inventory": {
+   "raw_o7": 54,
+   "raw_o3": 18,
+   "raw_o1": 17,
+   "raw_o2": 13,
+   "raw_o8": 14,
+   "raw_o5": 21,
+   "raw_o9": 9,
+   "m2_ore": 3
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.541"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00130",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x o5_i5",
+  "target_items": {
+   "o5_i5": 3
+  },
+  "initial_inventory": {
+   "raw_o2": 69,
+   "raw_o4": 45,
+   "raw_o8": 3,
+   "raw_o7": 56,
+   "raw_o1": 33,
+   "raw_o3": 14,
+   "c3_ore": 1,
+   "raw_a1": 1
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.575"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00131",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x t6_i6_6_16",
+  "target_items": {
+   "t6_i6_6_16": 3
+  },
+  "initial_inventory": {
+   "raw_t6": 28,
+   "raw_t9": 50,
+   "raw_t5": 79,
+   "raw_t3": 19,
+   "raw_t4": 9,
+   "raw_t0": 22,
+   "raw_t7": 15,
+   "raw_t8": 38,
+   "raw_t1": 13,
+   "c6_ore": 4,
+   "raw_a0": 4
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.553"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00132",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x c1_i5_21",
+  "target_items": {
+   "c1_i5_21": 3
+  },
+  "initial_inventory": {
+   "c5_ore": 85,
+   "c0_ore": 32,
+   "c1_ore": 13,
+   "c9_ore": 42,
+   "c3_ore": 17,
+   "c4_ore": 13,
+   "c2_ore": 12,
+   "c6_ore": 35
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.584"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00133",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x a1_i6_6_11",
+  "target_items": {
+   "a1_i6_6_11": 2
+  },
+  "initial_inventory": {
+   "raw_a1": 37,
+   "raw_a9": 4,
+   "raw_a3": 8,
+   "raw_a0": 28,
+   "raw_a2": 5,
+   "raw_a7": 4,
+   "m9_ore": 1,
+   "c6_ore": 3
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.554"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00134",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x c8_i5",
+  "target_items": {
+   "c8_i5": 1
+  },
+  "initial_inventory": {
+   "c9_ore": 32,
+   "c5_ore": 29,
+   "c6_ore": 10,
+   "c8_ore": 2,
+   "c4_ore": 4,
+   "c3_ore": 12,
+   "c7_ore": 27,
+   "c2_ore": 3,
+   "c0_ore": 4,
+   "raw_o1": 5,
+   "raw_o0": 2
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.590"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00135",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x o6_i6_6",
+  "target_items": {
+   "o6_i6_6": 1
+  },
+  "initial_inventory": {
+   "raw_o7": 57,
+   "raw_o3": 22,
+   "raw_o1": 19,
+   "raw_o2": 22,
+   "raw_o8": 16,
+   "raw_o0": 5,
+   "raw_o9": 77,
+   "raw_o5": 15,
+   "raw_o4": 13,
+   "c6_ore": 1
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.568"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00136",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x m2_i5",
+  "target_items": {
+   "m2_i5": 1
+  },
+  "initial_inventory": {
+   "m3_ore": 19,
+   "m4_ore": 10,
+   "m9_ore": 14,
+   "m1_ore": 5,
+   "m0_ore": 5,
+   "m7_ore": 12,
+   "m6_ore": 2,
+   "c1_ore": 4
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.634"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00137",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x t0_i6_6_20",
+  "target_items": {
+   "t0_i6_6_20": 3
+  },
+  "initial_inventory": {
+   "raw_t8": 117,
+   "raw_t6": 14,
+   "raw_t3": 3,
+   "raw_t0": 66,
+   "raw_t1": 27,
+   "raw_t4": 31,
+   "raw_t9": 46,
+   "m6_ore": 1,
+   "m4_ore": 3
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.572"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00138",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x t9_i5",
+  "target_items": {
+   "t9_i5": 3
+  },
+  "initial_inventory": {
+   "raw_t8": 11,
+   "raw_t9": 38,
+   "raw_t6": 40,
+   "raw_t5": 87,
+   "raw_t3": 17,
+   "raw_t4": 9,
+   "raw_t0": 18,
+   "raw_t7": 13,
+   "raw_t1": 7,
+   "c3_ore": 2,
+   "m7_ore": 1
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.635"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00139",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x o3_i6_6",
+  "target_items": {
+   "o3_i6_6": 2
+  },
+  "initial_inventory": {
+   "raw_o5": 48,
+   "raw_o9": 81,
+   "raw_o7": 110,
+   "raw_o3": 52,
+   "raw_o8": 23,
+   "raw_o4": 46,
+   "raw_o2": 65,
+   "raw_o0": 5,
+   "raw_o1": 17,
+   "c2_ore": 1
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.593"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00140",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x m6_i5",
+  "target_items": {
+   "m6_i5": 3
+  },
+  "initial_inventory": {
+   "m7_ore": 7,
+   "m3_ore": 17,
+   "m0_ore": 13,
+   "m1_ore": 12,
+   "m9_ore": 9,
+   "m6_ore": 14,
+   "c6_ore": 1,
+   "raw_o7": 5,
+   "raw_a3": 2
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.636"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00141",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x o7_i6_6",
+  "target_items": {
+   "o7_i6_6": 2
+  },
+  "initial_inventory": {
+   "raw_o9": 62,
+   "raw_o3": 30,
+   "raw_o7": 47,
+   "raw_o5": 23,
+   "m9_ore": 4
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.609"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00142",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x c1_i5",
+  "target_items": {
+   "c1_i5": 2
+  },
+  "initial_inventory": {
+   "c9_ore": 49,
+   "c5_ore": 92,
+   "c6_ore": 60,
+   "c8_ore": 18,
+   "c4_ore": 19,
+   "c3_ore": 11,
+   "c7_ore": 50,
+   "c1_ore": 5,
+   "raw_t4": 4
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.641"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00143",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x m3_i6_6_13",
+  "target_items": {
+   "m3_i6_6_13": 3
+  },
+  "initial_inventory": {
+   "m3_ore": 127,
+   "m4_ore": 96,
+   "m9_ore": 27,
+   "m0_ore": 29,
+   "m5_ore": 31,
+   "m6_ore": 42,
+   "m7_ore": 71,
+   "m1_ore": 104,
+   "raw_o4": 3
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.610"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00144",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x o2_i5",
+  "target_items": {
+   "o2_i5": 3
+  },
+  "initial_inventory": {
+   "raw_o5": 39,
+   "raw_o9": 88,
+   "raw_o7": 33,
+   "raw_o3": 17,
+   "raw_a2": 4,
+   "m0_ore": 1
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.647"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00145",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x m5_i6_6",
+  "target_items": {
+   "m5_i6_6": 1
+  },
+  "initial_inventory": {
+   "m1_ore": 40,
+   "m0_ore": 29,
+   "m9_ore": 11,
+   "m3_ore": 30,
+   "m6_ore": 14,
+   "m8_ore": 1,
+   "m5_ore": 7,
+   "m4_ore": 15,
+   "m7_ore": 5,
+   "raw_a8": 4,
+   "c2_ore": 3,
+   "raw_a4": 3
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.612"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00146",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 2x m1_i5_11",
+  "target_items": {
+   "m1_i5_11": 2
+  },
+  "initial_inventory": {
+   "m1_ore": 24,
+   "m3_ore": 14,
+   "m4_ore": 6,
+   "m7_ore": 18,
+   "m6_ore": 3,
+   "m0_ore": 12,
+   "m9_ore": 4,
+   "m5_ore": 5,
+   "raw_a3": 4
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.651"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00147",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x o4_i6_6",
+  "target_items": {
+   "o4_i6_6": 3
+  },
+  "initial_inventory": {
+   "raw_o7": 92,
+   "raw_o1": 33,
+   "raw_o2": 72,
+   "raw_o3": 36,
+   "raw_o4": 45,
+   "raw_o5": 23,
+   "raw_o9": 53,
+   "raw_o8": 17
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.613"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00148",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 1x o8_i5",
+  "target_items": {
+   "o8_i5": 1
+  },
+  "initial_inventory": {
+   "raw_o9": 53,
+   "raw_o3": 7,
+   "raw_o7": 26,
+   "raw_o5": 6,
+   "raw_o0": 3,
+   "raw_o1": 14,
+   "raw_o4": 13,
+   "raw_o8": 9,
+   "raw_o2": 14,
+   "raw_t3": 3
+  },
+  "max_steps": 75,
+  "max_depth": 5,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.653"
+ },
+ {
+  "item_id": "textcraft_synth_ood_00149",
+  "split": "ood",
+  "task": "craft",
+  "goal": "Craft the following items: 3x a6_i6_6",
+  "target_items": {
+   "a6_i6_6": 3
+  },
+  "initial_inventory": {
+   "raw_a1": 363,
+   "raw_a3": 120,
+   "raw_a9": 62,
+   "raw_a4": 345,
+   "raw_a0": 89,
+   "raw_a2": 26,
+   "raw_a6": 16,
+   "raw_a7": 14,
+   "raw_o9": 4,
+   "m9_ore": 2
+  },
+  "max_steps": 75,
+  "max_depth": 6,
+  "difficulty": "medium",
+  "source": "platoon-textcraft 0.4.0",
+  "source_id": "textcraft_synth.train.621"
+ }
+]

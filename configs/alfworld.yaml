@@ -1,0 +1,54 @@
+# ALFWorld (TextWorld mode, AgentGym AgentEval protocol). Requires `alfworld`
+# + `alfworld-download`. Merges on top of base.yaml.
+#
+# `config_file` must point to an ALFWorld base config (the schema the alfworld
+# package expects). A canonical copy is provided at configs/alfworld_base.yaml;
+# adjust it if your installed alfworld version differs.
+#
+# Dataset + eval order follow the M3 era by default:
+#   train  data/agenteval/alfworld_train.json  (100 items, file order)
+#   eval   data/agenteval/alfworld_test.json   (200 items, file order)
+# Both are AgentEval data_idx lists over the json_2.1.1/valid_train games, so
+# the order is exactly the M3 batches'. One skill store runs through
+# train -> eval and the eval phase keeps accumulating.
+#
+# The official-split ID/OOD profile stays available:
+#   python scripts/run_protocol.py --config configs/alfworld.yaml \
+#       --split-profile official
+# (alfworld/data/README.md: stratified 200 train -> valid_seen 140 ID +
+# valid_unseen 134 OOD; the official games are appended to AgentGym's
+# concatenated mappings by scripts/make_alfworld_official_lists.py, so the
+# AgentEval indices above are untouched).
+#
+# Episodes: the item list defines the episode set; the adapter loads exactly
+# one game per episode (AgentGym's SingleAlfredTWEnv pattern, ~1-3s compile
+# per reset). Binary success (won), reported overall and per task type;
+# 30 steps per episode = AgentEval's max rounds for ALFWorld.
+#
+# Two-phase protocol (train -> eval):
+#   python scripts/run_protocol.py --config configs/alfworld.yaml
+
+env:
+  name: alfworld
+  step_limit: 30           # AgentEval max rounds; max ENV interactions per
+                           # episode (agent loops count env.step calls only; SKILL/message turns are free)
+  params:
+    config_file: configs/alfworld_base.yaml
+    items_file: data/agenteval/alfworld_test.json   # direct run = AgentEval test;
+                           # run_protocol overrides per phase (train/test)
+    mappings_train: data/agenteval/alfworld_mappings_train.json
+    mappings_test: data/agenteval/alfworld_mappings_test.json
+    mappings_official: data/agenteval/alfworld_mappings_official.json
+    data_root: null        # null = $ALFWORLD_DATA (alfworld_data/)
+
+run:
+  success_threshold: 0.99  # score is 0/1 (1.0 = task completed)
+
+system1:
+  backend: stub                      # switch to `jev` when Jev-vllm serves :8100
+
+system2:
+  backend: stub                      # switch to `llm` when vLLM serves :8000
+
+trigger:
+  confidence_threshold: 0.5

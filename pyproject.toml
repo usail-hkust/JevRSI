@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jevmaster"
+version = "0.1.0"
+description = "JevRSI: System-1/System-2 collaboration with procedures, state memory and world models."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "httpx>=0.24",
+    "PyYAML>=6.0",
+    "openai>=1.0",
+]
+
+[project.optional-dependencies]
+alfworld = ["alfworld>=0.3.3"]
+# BabyAI-Text per BALROG: the PyPI minigrid package lacks the fork's
+# text-description observations; install the fork editable instead:
+#   git clone https://github.com/BartekCupial/Minigrid && pip install -e ./Minigrid
+minigrid = ["gymnasium>=0.28.1", "pygame>=2.4.0"]
+wandb = ["wandb>=0.16"]
+
+[project.scripts]
+jevmaster = "jevmaster.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["jevmaster*"]
+

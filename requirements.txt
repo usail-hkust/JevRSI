@@ -1,0 +1,11 @@
+# Core runtime dependencies
+httpx>=0.24
+PyYAML>=6.0
+openai>=1.0
+
+# Environments (install as needed; require extra system deps)
+#   ALFWorld also needs: alfworld-download  (downloads data to $ALFWORLD_DATA)
+alfworld>=0.3.3
+#   MiniGrid/BabyAI-Text uses the BALROG fork (pip install -e after cloning);
+#   the PyPI minigrid package lacks the text-description fork BALROG uses
+#   git+https://github.com/BartekCupial/Minigrid.git

@@ -1,0 +1,47 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# virtual envs
+.venv/
+venv/
+
+# run outputs
+/runs/
+/records/
+/logs/
+/skills_store/
+/wandb/
+*.jsonl
+
+# env data (agenteval item lists are tracked: benchmark definitions, not env data)
+/alfworld_data/
+/data/*
+!/data/agenteval/
+
+# MiniGrid split manifests are benchmark definitions (no env data).
+!/data/minigrid/
+/data/minigrid/*
+!/data/minigrid/splits/
+
+# TextCraft-Synth split manifests and its frozen recipe world are benchmark
+# definitions; the published task jsonl (downloadable) is not committed.
+!/data/textcraft_synth/
+/data/textcraft_synth/*
+!/data/textcraft_synth/splits/
+!/data/textcraft_synth/recipes.json
+
+# OS
+.DS_Store
+
+# local model serving logs
+/vllm_logs/
+
+# local data link and per-run copies of the stage scripts
+/alfworld_data
+/scripts/_run_*.sh

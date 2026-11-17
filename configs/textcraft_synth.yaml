@@ -1,0 +1,51 @@
+# TextCraft-Synth (platoon-textcraft official split). The synthetic crafting
+# world and the benchmark rules are vendored under
+# jevmaster/envs/textcraft_synth/ (platoon-textcraft 0.4.0, MIT; RAO paper,
+# arXiv 2605.06639); the frozen world is data/textcraft_synth/recipes.json
+# (seed 42, 25 items per domain/tier, 1,452 items) and the official split
+# manifests are data/textcraft_synth/splits/:
+#
+#   split  recipe depth  count  source
+#   train  2-4           200    first slice of the published train pool
+#   id     2-4           150    next slice (new task instances)
+#   ood    5-6           150    deeper recipe trees
+#
+# All three are disjoint task instances; `scripts/run_protocol.py
+# --split-profile official` (or the default profile -- there is no AgentEval
+# list for this benchmark) runs train -> eval-id + eval-ood with one frozen
+# post-train skill snapshot. The manifests were built and validated by
+# scripts/make_textcraft_synth_split.py (gold trajectories replay to 1.0).
+#
+# An episode: craft the goal's target count(s) from the starting inventory.
+# Actions are `craft N <item> using N1 <ing1>, ...`, `get_info`, `inventory`
+# and `finish <message>`; success is 1.0 only after `finish` with every target
+# crafted on top of the starting inventory (items already held do not count),
+# exactly platoon's TextCraftSynthEnvironment rule. 75 steps = the published
+# tasks' max_steps.
+#
+#   python scripts/run_protocol.py --config configs/textcraft_synth.yaml
+#   python scripts/analyze_protocol.py records/<exp_id>-eval-id
+#
+# Do not change the item list when resuming a batch: episode ids index into
+# task_variations() and would shift.
+
+env:
+  name: textcraft_synth
+  step_limit: 75
+  params:
+    items_file: data/textcraft_synth/splits/textcraft_synth_id.json  # direct
+                           # run = official ID manifest; run_protocol overrides
+                           # it per phase (train / eval-id / eval-ood)
+    recipes_file: data/textcraft_synth/recipes.json
+
+run:
+  success_threshold: 0.99   # score is 0/1 (1.0 = every target crafted + finish)
+
+system1:
+  backend: stub             # switch to `jev` once the decision server serves :8100
+
+system2:
+  backend: stub             # switch to `llm` once vLLM serves :8000
+
+trigger:
+  confidence_threshold: 0.5
