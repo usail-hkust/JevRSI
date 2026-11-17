@@ -32,7 +32,7 @@ RoboDojo is the 3D embodied testbed for JevRSI's low-latency decision loop.
 The demo shows the harness acting in a rendered 3D scene while System-2
 develops reusable modules asynchronously.
 
-https://github.com/user-attachments/assets/68a0e6da-1649-4681-b927-e82375088b18
+https://github.com/user-attachments/assets/adf9b9c5-ce07-451d-9121-e387ee94a953
 
 The harness has three module kinds. System-1 chooses every action; System-2
 never acts instead of it. System-2 runs asynchronously, and when System-1 is
