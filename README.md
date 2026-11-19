@@ -1,5 +1,10 @@
 # JevRSI
 
+[![arXiv](https://img.shields.io/badge/arXiv-2611.22432-b31b1b.svg)](https://arxiv.org/abs/2611.22432)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+**Paper:** [Think Once, Act Fast: Cost-Effective Recursive Self-Improvement for Decision Model Harness](https://arxiv.org/abs/2611.22432) — arXiv:2611.22432
+
 **JevRSI** is a System-1/System-2 collaboration framework that turns LLM
 reasoning into transferable decision support through recursive harness
 improvement. A Jev-style System-1 model provides low-latency action selection,
@@ -222,3 +227,22 @@ jevmaster/system2/   # async process, judge/develop/admission
 jevmaster/prompts/system2.py  # concise judge + per-kind develop prompts
 jevmaster/agent.py   # the decision loop
 ```
+
+## Citation
+
+If you find JevRSI useful, please cite our paper:
+
+```bibtex
+@misc{lai2026jevrsi,
+  title         = {Think Once, Act Fast: Cost-Effective Recursive
+                   Self-Improvement for Decision Model Harness},
+  author        = {Siqi Lai and Haitao Li and Hao Liu},
+  year          = {2026},
+  eprint        = {2611.22432},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  url           = {https://arxiv.org/abs/2611.22432}
+}
+```
+
+Paper: <https://arxiv.org/abs/2611.22432>
