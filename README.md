@@ -3,7 +3,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2611.22432-b31b1b.svg)](https://arxiv.org/abs/2611.22432)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**Paper:** [Think Once, Act Fast: Cost-Effective Recursive Self-Improvement for Decision Model Harness](https://arxiv.org/abs/2611.22432) — arXiv:2611.22432
+**Paper:** [Think Once, Act Fast](https://arxiv.org/abs/2611.22432) — arXiv:2611.22432
 
 **JevRSI** is a System-1/System-2 collaboration framework that turns LLM
 reasoning into transferable decision support through recursive harness
